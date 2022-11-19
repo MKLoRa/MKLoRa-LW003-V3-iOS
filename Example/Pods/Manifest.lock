@@ -505,7 +505,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/BXPTHContentPage (= 0.1.0)
     - MKLoRaWAN-BV/Functions/DebuggerPage (= 0.1.0)
     - MKLoRaWAN-BV/Functions/DeviceInfoPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/DeviceSettingPage (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/DeviceSettingsPage (= 0.1.0)
     - MKLoRaWAN-BV/Functions/FilterPages (= 0.1.0)
     - MKLoRaWAN-BV/Functions/GeneralPage (= 0.1.0)
     - MKLoRaWAN-BV/Functions/IndicatorSettingPage (= 0.1.0)
@@ -952,7 +952,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/DeviceSettingPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/DeviceSettingsPage (0.1.0):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -961,11 +961,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/DeviceSettingPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/DeviceSettingPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/DeviceSettingsPage/Controller (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/DeviceSettingsPage/Model (= 0.1.0)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/DeviceSettingPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/DeviceSettingsPage/Controller (0.1.0):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -975,12 +975,12 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/DeviceInfoPage/Controller
-    - MKLoRaWAN-BV/Functions/DeviceSettingPage/Model
+    - MKLoRaWAN-BV/Functions/DeviceSettingsPage/Model
     - MKLoRaWAN-BV/Functions/IndicatorSettingPage/Controller
     - MKLoRaWAN-BV/Functions/SynDataPage/Controller
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/DeviceSettingPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/DeviceSettingsPage/Model (0.1.0):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2218,7 +2218,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/BleGatewaySettingsPage/Controller
-    - MKLoRaWAN-BV/Functions/DeviceSettingPage/Controller
+    - MKLoRaWAN-BV/Functions/DeviceSettingsPage/Controller
     - MKLoRaWAN-BV/Functions/GeneralPage/Controller
     - MKLoRaWAN-BV/Functions/LoRaPage/Controller
     - MKLoRaWAN-BV/SDK
@@ -2523,7 +2523,7 @@ SPEC CHECKSUMS:
   MKBaseBleModule: 15aa067c4e408a473e025b1a768ebce00a7e5949
   MKBaseModuleLibrary: 6de43aeeb519d1c5f3aa94ebaffe8b3a57351312
   MKCustomUIModule: 49a47c2e1683bb06f15ba9659d6ce693a76c6a1b
-  MKLoRaWAN-BV: 1f70ec5bea87e4c45e56eb000d3ef9baabf9ca2e
+  MKLoRaWAN-BV: b60b4bbef2398b1d67ebcf3560e30b9857cfc1d7
   MLInputDodger: 79a0e420a80d0d3bba122bf2639603cc76609ba8
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
   WRNavigationBar: 10bfdf96addf14d640d07c2ef08a029c18d8af10

@@ -46,6 +46,8 @@
 #import "MKBVDebuggerCell.h"
 #import "MKBVDeviceInfoController.h"
 #import "MKBVDeviceInfoModel.h"
+#import "MKBVDeviceSettingController.h"
+#import "MKBVDeviceSettingModel.h"
 #import "MKBVFilterByAdvNameController.h"
 #import "MKBVFilterByAdvNameModel.h"
 #import "MKBVFilterByBXPButtonController.h"

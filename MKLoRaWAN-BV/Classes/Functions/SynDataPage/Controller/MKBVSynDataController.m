@@ -503,7 +503,7 @@ mk_bv_storageDataDelegate>
         NSInteger time = [MKBLEBaseSDKAdopter getDecimalWithHex:subContent range:NSMakeRange(2, 8)];
         NSDate *date = [NSDate dateWithTimeIntervalSince1970:time];
         NSString *timestamp = [self.formatter stringFromDate:date];
-        NSInteger timezone = [MKBLEBaseSDKAdopter getDecimalWithHex:subContent range:NSMakeRange(10, 2)];
+        NSNumber *timezone = [MKBLEBaseSDKAdopter signedHexTurnString:[subContent substringWithRange:NSMakeRange(10, 2)]];
         NSString *tempMac = [subContent substringWithRange:NSMakeRange(12, 12)];
         tempMac = [tempMac uppercaseString];
         NSString *macAddress = [NSString stringWithFormat:@"%@:%@:%@:%@:%@:%@",[tempMac substringWithRange:NSMakeRange(0, 2)],[tempMac substringWithRange:NSMakeRange(2, 2)],[tempMac substringWithRange:NSMakeRange(4, 2)],[tempMac substringWithRange:NSMakeRange(6, 2)],[tempMac substringWithRange:NSMakeRange(8, 2)],[tempMac substringWithRange:NSMakeRange(10, 2)]];
@@ -514,6 +514,7 @@ mk_bv_storageDataDelegate>
         index += subLen * 2;
         NSDictionary *dic = @{
             @"timestamp":timestamp,
+            @"timezone":timezone,
             @"deviceType":deviceType,
             @"macAddress":macAddress,
             @"rssi":[NSString stringWithFormat:@"%@",rssi],

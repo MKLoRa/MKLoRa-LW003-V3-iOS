@@ -396,13 +396,13 @@
           ]
         },
         {
-          "name": "DeviceSettingPage",
+          "name": "DeviceSettingsPage",
           "subspecs": [
             {
               "name": "Controller",
-              "source_files": "MKLoRaWAN-BV/Classes/Functions/DeviceSettingPage/Controller/**",
+              "source_files": "MKLoRaWAN-BV/Classes/Functions/DeviceSettingsPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/DeviceSettingPage/Model": [
+                "MKLoRaWAN-BV/Functions/DeviceSettingsPage/Model": [
 
                 ],
                 "MKLoRaWAN-BV/Functions/SynDataPage/Controller": [
@@ -418,7 +418,7 @@
             },
             {
               "name": "Model",
-              "source_files": "MKLoRaWAN-BV/Classes/Functions/DeviceSettingPage/Model/**"
+              "source_files": "MKLoRaWAN-BV/Classes/Functions/DeviceSettingsPage/Model/**"
             }
           ]
         },
@@ -1135,7 +1135,7 @@
                 "MKLoRaWAN-BV/Functions/GeneralPage/Controller": [
 
                 ],
-                "MKLoRaWAN-BV/Functions/DeviceSettingPage/Controller": [
+                "MKLoRaWAN-BV/Functions/DeviceSettingsPage/Controller": [
 
                 ]
               }

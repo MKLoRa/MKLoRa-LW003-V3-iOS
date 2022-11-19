@@ -287,7 +287,7 @@ MKBVReportTimePointCellDelegate>
 - (void)loadSection0Datas {
     MKBVTimingModeAddCellModel * cellModel = [[MKBVTimingModeAddCellModel alloc] init];
     cellModel.index = 0;
-    cellModel.msg = @"Bluetooth Scan Time Point";
+    cellModel.msg = @"Report Time Point";
     [self.section0List addObject:cellModel];
 }
 

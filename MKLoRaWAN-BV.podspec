@@ -273,11 +273,11 @@ TODO: Add long description of the pod here.
       end
     end
     
-    ss.subspec 'DeviceSettingPage' do |sss|
+    ss.subspec 'DeviceSettingsPage' do |sss|
       sss.subspec 'Controller' do |ssss|
-        ssss.source_files = 'MKLoRaWAN-BV/Classes/Functions/DeviceSettingPage/Controller/**'
+        ssss.source_files = 'MKLoRaWAN-BV/Classes/Functions/DeviceSettingsPage/Controller/**'
         
-        ssss.dependency 'MKLoRaWAN-BV/Functions/DeviceSettingPage/Model'
+        ssss.dependency 'MKLoRaWAN-BV/Functions/DeviceSettingsPage/Model'
         
         ssss.dependency 'MKLoRaWAN-BV/Functions/SynDataPage/Controller'
         ssss.dependency 'MKLoRaWAN-BV/Functions/IndicatorSettingPage/Controller'
@@ -285,7 +285,7 @@ TODO: Add long description of the pod here.
       end
       
       sss.subspec 'Model' do |ssss|
-        ssss.source_files = 'MKLoRaWAN-BV/Classes/Functions/DeviceSettingPage/Model/**'
+        ssss.source_files = 'MKLoRaWAN-BV/Classes/Functions/DeviceSettingsPage/Model/**'
       end
       
     end
@@ -769,7 +769,7 @@ TODO: Add long description of the pod here.
         ssss.dependency 'MKLoRaWAN-BV/Functions/LoRaPage/Controller'
         ssss.dependency 'MKLoRaWAN-BV/Functions/BleGatewaySettingsPage/Controller'
         ssss.dependency 'MKLoRaWAN-BV/Functions/GeneralPage/Controller'
-        ssss.dependency 'MKLoRaWAN-BV/Functions/DeviceSettingPage/Controller'
+        ssss.dependency 'MKLoRaWAN-BV/Functions/DeviceSettingsPage/Controller'
       end
     end
     

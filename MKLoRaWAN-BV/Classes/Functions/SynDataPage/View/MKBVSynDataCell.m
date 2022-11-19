@@ -29,6 +29,8 @@ static NSString *const MKBVSynDataCellIdenty = @"MKBVSynDataCellIdenty";
 
 @property (nonatomic, strong)UIView *lineView;
 
+@property (nonatomic, strong)NSArray *timeZoneList;
+
 @end
 
 @implementation MKBVSynDataCell
@@ -120,7 +122,9 @@ static NSString *const MKBVSynDataCellIdenty = @"MKBVSynDataCellIdenty";
     }
     
     if (ValidStr(dataModel[@"timestamp"])) {
-        self.timeLabel.text = [@"Time: " stringByAppendingString:dataModel[@"timestamp"]];
+        NSInteger timezoneIndex = [dataModel[@"timezone"] integerValue] + 24;
+        NSString *timeZone = self.timeZoneList[timezoneIndex];
+        self.timeLabel.text = [NSString stringWithFormat:@"Time: %@ %@",dataModel[@"timestamp"],timeZone];
     }else {
         self.timeLabel.text = @"Time: N/A";
     }
@@ -198,6 +202,21 @@ static NSString *const MKBVSynDataCellIdenty = @"MKBVSynDataCellIdenty";
         _lineView.backgroundColor = CUTTING_LINE_COLOR;
     }
     return _lineView;
+}
+
+- (NSArray *)timeZoneList {
+    if (!_timeZoneList) {
+        _timeZoneList = @[@"UTC-12:00",@"UTC-11:30",@"UTC-11:00",@"UTC-10:30",@"UTC-10:00",@"UTC-09:30",
+                          @"UTC-09:00",@"UTC-08:30",@"UTC-08:00",@"UTC-07:30",@"UTC-07:00",@"UTC-06:30",
+                          @"UTC-06:00",@"UTC-05:30",@"UTC-05:00",@"UTC-04:30",@"UTC-04:00",@"UTC-03:30",
+                          @"UTC-03:00",@"UTC-02:30",@"UTC-02:00",@"UTC-01:30",@"UTC-01:00",@"UTC-00:30",
+                          @"UTC+00:00",@"UTC+00:30",@"UTC+01:00",@"UTC+01:30",@"UTC+02:00",@"UTC+02:30",
+                          @"UTC+03:00",@"UTC+03:30",@"UTC+04:00",@"UTC+04:30",@"UTC+05:00",@"UTC+05:30",
+                          @"UTC+06:00",@"UTC+06:30",@"UTC+07:00",@"UTC+07:30",@"UTC+08:00",@"UTC+08:30",
+                          @"UTC+09:00",@"UTC+09:30",@"UTC+10:00",@"UTC+10:30",@"UTC+11:00",@"UTC+11:30",
+                          @"UTC+12:00",@"UTC+12:30",@"UTC+13:00",@"UTC+13:30",@"UTC+14:00"];
+    }
+    return _timeZoneList;
 }
 
 - (UILabel *)createMsgLabel {
