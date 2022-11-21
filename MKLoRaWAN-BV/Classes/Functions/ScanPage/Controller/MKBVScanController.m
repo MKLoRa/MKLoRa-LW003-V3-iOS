@@ -97,8 +97,8 @@ MKBVTabBarControllerDelegate>
 #pragma mark - super method
 
 - (void)rightButtonMethod {
-//    UIViewController *vc = [[CTMediator sharedInstance] CTMediator_LORAWAN_bv_AboutPage];
-//    [self.navigationController pushViewController:vc animated:YES];
+    UIViewController *vc = [[CTMediator sharedInstance] CTMediator_LORAWAN_BV_AboutPage];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 #pragma mark - UITableViewDataSource

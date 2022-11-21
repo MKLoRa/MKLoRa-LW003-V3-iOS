@@ -1,13 +1,10 @@
-//
-//  MKLoRaWANBVModuleKey.h
-//  MKLoRaWAN-BV_Example
-//
-//  Created by aa on 2022/10/19.
-//  Copyright © 2022 aadyx2007@163.com. All rights reserved.
-//
-
-#ifndef MKLoRaWANBVModuleKey_h
-#define MKLoRaWANBVModuleKey_h
 
 
-#endif /* MKLoRaWANBVModuleKey_h */
+//本工程关于页面
+NSString *const kTarget_loRaApp_bv_module = @"LoRaWANBV_Module";
+NSString *const kAction_loRaApp_bv_aboutPage = @"LoRaWANBV_Module_AboutController";
+
+
+//壳工程关于页面
+NSString *const kTarget_loRaApp_la_module = @"LoRaWANLA_Module";
+NSString *const kAction_loRaApp_la_aboutPage = @"LoRaWANLA_BV_AboutController";

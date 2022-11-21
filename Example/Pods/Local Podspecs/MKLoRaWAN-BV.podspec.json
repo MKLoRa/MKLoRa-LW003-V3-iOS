@@ -173,6 +173,15 @@
           "source_files": "MKLoRaWAN-BV/Classes/Functions/ScanTimePointModel/**"
         },
         {
+          "name": "AboutPage",
+          "subspecs": [
+            {
+              "name": "Controller",
+              "source_files": "MKLoRaWAN-BV/Classes/Functions/AboutPage/Controller/**"
+            }
+          ]
+        },
+        {
           "name": "BeaconContentPage",
           "subspecs": [
             {

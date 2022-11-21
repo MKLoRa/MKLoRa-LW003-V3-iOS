@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CTMediator (MKBVAdd)
 
+/// 关于页面
+- (UIViewController *)CTMediator_LORAWAN_BV_AboutPage;
+
 @end
 
 NS_ASSUME_NONNULL_END

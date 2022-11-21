@@ -22,6 +22,7 @@
 #import "MKBVReportTimePointCell.h"
 #import "MKBVTextButtonCell.h"
 #import "MKBVTimingModeAddCell.h"
+#import "MKBVAboutController.h"
 #import "MKBVBXPAccContentController.h"
 #import "MKBVBXPAccContentModel.h"
 #import "MKBVBXPBeaconContentController.h"

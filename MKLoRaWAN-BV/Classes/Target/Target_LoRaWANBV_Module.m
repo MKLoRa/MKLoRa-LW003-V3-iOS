@@ -10,7 +10,7 @@
 
 #import "MKBVScanController.h"
 //
-//#import "MKBVAboutController.h"
+#import "MKBVAboutController.h"
 
 @implementation Target_LoRaWANBV_Module
 
@@ -21,7 +21,7 @@
 
 /// 关于页面
 - (UIViewController *)Action_LoRaWANBV_Module_AboutController:(NSDictionary *)params {
-    return [[UIViewController alloc] init];
+    return [[MKBVAboutController alloc] init];
 }
 
 @end

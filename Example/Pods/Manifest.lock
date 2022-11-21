@@ -494,6 +494,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/Functions/AboutPage (= 0.1.0)
     - MKLoRaWAN-BV/Functions/BeaconContentPage (= 0.1.0)
     - MKLoRaWAN-BV/Functions/BleGatewaySettingsPage (= 0.1.0)
     - MKLoRaWAN-BV/Functions/BleSettingsPage (= 0.1.0)
@@ -535,6 +536,29 @@ PODS:
     - MKLoRaWAN-BV/Functions/UIDContentPage (= 0.1.0)
     - MKLoRaWAN-BV/Functions/UpdatePage (= 0.1.0)
     - MKLoRaWAN-BV/Functions/URLContentPage (= 0.1.0)
+    - MKLoRaWAN-BV/SDK
+    - MLInputDodger
+  - MKLoRaWAN-BV/Functions/AboutPage (0.1.0):
+    - HHTransition
+    - iOSDFULibrary
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKLoRaWAN-BV/ConnectModule
+    - MKLoRaWAN-BV/CTMediator
+    - MKLoRaWAN-BV/DatabaseManager
+    - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/Functions/AboutPage/Controller (= 0.1.0)
+    - MKLoRaWAN-BV/SDK
+    - MLInputDodger
+  - MKLoRaWAN-BV/Functions/AboutPage/Controller (0.1.0):
+    - HHTransition
+    - iOSDFULibrary
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKLoRaWAN-BV/ConnectModule
+    - MKLoRaWAN-BV/CTMediator
+    - MKLoRaWAN-BV/DatabaseManager
+    - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/BeaconContentPage (0.1.0):
@@ -2523,7 +2547,7 @@ SPEC CHECKSUMS:
   MKBaseBleModule: 15aa067c4e408a473e025b1a768ebce00a7e5949
   MKBaseModuleLibrary: 6de43aeeb519d1c5f3aa94ebaffe8b3a57351312
   MKCustomUIModule: 49a47c2e1683bb06f15ba9659d6ce693a76c6a1b
-  MKLoRaWAN-BV: b60b4bbef2398b1d67ebcf3560e30b9857cfc1d7
+  MKLoRaWAN-BV: ed7a80873251a39a05309ff65071e7759697880e
   MLInputDodger: 79a0e420a80d0d3bba122bf2639603cc76609ba8
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
   WRNavigationBar: 10bfdf96addf14d640d07c2ef08a029c18d8af10

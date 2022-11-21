@@ -120,6 +120,12 @@ TODO: Add long description of the pod here.
       sss.source_files = 'MKLoRaWAN-BV/Classes/Functions/ScanTimePointModel/**'
     end
     
+    ss.subspec 'AboutPage' do |sss|
+      sss.subspec 'Controller' do |ssss|
+        ssss.source_files = 'MKLoRaWAN-BV/Classes/Functions/AboutPage/Controller/**'
+      end
+    end
+    
     ss.subspec 'BeaconContentPage' do |sss|
       sss.subspec 'Controller' do |ssss|
         ssss.source_files = 'MKLoRaWAN-BV/Classes/Functions/BeaconContentPage/Controller/**'
