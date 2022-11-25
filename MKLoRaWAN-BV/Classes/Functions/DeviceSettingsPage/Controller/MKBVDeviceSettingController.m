@@ -442,7 +442,7 @@ mk_textSwitchCellDelegate>
     MKTextButtonCellModel *cellModel = [[MKTextButtonCellModel alloc] init];
     cellModel.index = 1;
     cellModel.msg = @"Low Power Prompt";
-    cellModel.dataList = @[@"10%",@"20%",@"30%",@"40%",@"50"];
+    cellModel.dataList = @[@"10%",@"20%",@"30%",@"40%",@"50%"];
     cellModel.noteMsg = @"*When the battery is less than or equal to 10%, the red LED will flash once every 30 seconds.";
     cellModel.noteMsgColor = RGBCOLOR(102, 102, 102);
     cellModel.dataListIndex = 1;

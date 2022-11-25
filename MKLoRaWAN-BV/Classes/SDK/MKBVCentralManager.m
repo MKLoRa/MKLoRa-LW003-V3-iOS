@@ -506,8 +506,16 @@ static dispatch_once_t onceToken;
     NSString *battery = [MKBLEBaseSDKAdopter getDecimalStringWithHex:content range:NSMakeRange(2, 2)];
     NSString *voltage = [NSString stringWithFormat:@"%.3f",([MKBLEBaseSDKAdopter getDecimalWithHex:content range:NSMakeRange(4, 4)] * 0.001)];
     BOOL needPassword = [[content substringWithRange:NSMakeRange(8, 2)] isEqualToString:@"01"];
-    NSString *temperature = [NSString stringWithFormat:@"%.2f",([[MKBLEBaseSDKAdopter signedHexTurnString:[content substringWithRange:NSMakeRange(10, 4)]] integerValue] * 0.01)];
-    NSString *humidity = [NSString stringWithFormat:@"%.2f",([MKBLEBaseSDKAdopter getDecimalWithHex:content range:NSMakeRange(10, 4)] * 0.01)];
+    NSString *tempValue = [content substringWithRange:NSMakeRange(10, 4)];
+    NSString *temperature = tempValue;
+    if (![tempValue isEqualToString:@"ffff"]) {
+        temperature = [NSString stringWithFormat:@"%.2f",([[MKBLEBaseSDKAdopter signedHexTurnString:tempValue] integerValue] * 0.01)];
+    }
+    NSString *humidityValue = [content substringWithRange:NSMakeRange(14, 4)];
+    NSString *humidity = humidityValue;
+    if (![humidityValue isEqualToString:@"ffff"]) {
+        humidity = [NSString stringWithFormat:@"%.2f",([MKBLEBaseSDKAdopter getDecimalWithHex:humidityValue range:NSMakeRange(0, humidityValue.length)] * 0.01)];
+    }
     
     NSString *tempMac = [[content substringWithRange:NSMakeRange(18, 12)] uppercaseString];
     NSString *macAddress = [NSString stringWithFormat:@"%@:%@:%@:%@:%@:%@",

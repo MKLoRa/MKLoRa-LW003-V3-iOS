@@ -487,7 +487,6 @@ mk_bv_storageDataDelegate>
     
     NSInteger index = 0;
     NSMutableArray *dataList = [NSMutableArray array];
-    NSString *date = [self.formatter stringFromDate:[NSDate date]];
     for (NSInteger i = 0; i < content.length; i ++) {
         if (index >= content.length) {
             break;
