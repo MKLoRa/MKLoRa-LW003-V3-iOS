@@ -263,17 +263,17 @@ MKBVTextButtonCellDelegate>
     
     if (ValidStr(self.dataModel.bleAdv)) {
         MKNormalTextCellModel *advModel = self.section5List[0];
-        advModel.rightMsg = [self.dataModel.bleAdv stringByAppendingString:@"s"];
+        advModel.rightMsg = [self.dataModel.bleAdv stringByAppendingString:@" times"];
     }
     
     if (ValidStr(self.dataModel.bleScan)) {
         MKNormalTextCellModel *scanModel = self.section5List[1];
-        scanModel.rightMsg = [self.dataModel.bleScan stringByAppendingString:@"s"];
+        scanModel.rightMsg = [self.dataModel.bleScan stringByAppendingString:@" ms"];
     }
     
     if (ValidStr(self.dataModel.lora)) {
         MKNormalTextCellModel *loraModel = self.section5List[2];
-        loraModel.rightMsg = [self.dataModel.lora stringByAppendingString:@"s"];
+        loraModel.rightMsg = [self.dataModel.lora stringByAppendingString:@" ms"];
     }
     
     [self.tableView reloadData];
@@ -340,17 +340,14 @@ MKBVTextButtonCellDelegate>
 
 - (void)loadSection5Datas {
     MKNormalTextCellModel *cellModel1 = [[MKNormalTextCellModel alloc] init];
-    cellModel1.showRightIcon = YES;
     cellModel1.leftMsg = @"BLE ADV";
     [self.section5List addObject:cellModel1];
     
     MKNormalTextCellModel *cellModel2 = [[MKNormalTextCellModel alloc] init];
-    cellModel2.showRightIcon = YES;
     cellModel2.leftMsg = @"BLE SCAN";
     [self.section5List addObject:cellModel2];
     
     MKNormalTextCellModel *cellModel3 = [[MKNormalTextCellModel alloc] init];
-    cellModel3.showRightIcon = YES;
     cellModel3.leftMsg = @"LoRa";
     [self.section5List addObject:cellModel3];
 }
