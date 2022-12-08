@@ -125,7 +125,7 @@
         for (NSInteger i = 0; i < list.count; i ++) {
             NSDictionary *dic = list[i];
             MKBVOtherBlockOptionModel *model = [[MKBVOtherBlockOptionModel alloc] init];
-            model.dataType = dic[@"type"];
+            model.dataType = ([dic[@"type"] isEqualToString:@"00"] ? @"" : dic[@"type"]);
             model.minIndex = [dic[@"start"] integerValue];
             model.maxIndex = [dic[@"end"] integerValue];
             [self.blockList addObject:model];

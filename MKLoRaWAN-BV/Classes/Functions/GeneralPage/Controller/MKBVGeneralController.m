@@ -51,10 +51,15 @@ mk_textSwitchCellDelegate>
     NSLog(@"MKBVGeneralController销毁");
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    [self readDataFromDevice];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self loadSubViews];
-    [self readDataFromDevice];
+    [self loadSectionDatas];
 }
 
 #pragma mark - super method
@@ -171,7 +176,9 @@ mk_textSwitchCellDelegate>
     [self.dataModel readDataWithSucBlock:^{
         @strongify(self);
         [[MKHudManager share] hide];
-        [self loadSectionDatas];
+        MKTextSwitchCellModel *cellModel = self.section3List[0];
+        cellModel.isOn = self.dataModel.transfer;
+        [self.tableView reloadData];
     } failedBlock:^(NSError * _Nonnull error) {
         @strongify(self);
         [[MKHudManager share] hide];

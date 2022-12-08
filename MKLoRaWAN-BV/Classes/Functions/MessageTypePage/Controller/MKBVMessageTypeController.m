@@ -13,6 +13,7 @@
 #import "MKMacroDefines.h"
 #import "MKBaseTableView.h"
 #import "UIView+MKAdd.h"
+#import "UITableView+MKAdd.h"
 
 #import "MKHudManager.h"
 #import "MKTextButtonCell.h"
@@ -79,16 +80,16 @@ MKTextButtonCellDelegate>
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     if (section == 0) {
-        return self.section0List.count;
+        return (self.dataModel.beaconPayload == 1 ? self.section0List.count : 1);
     }
     if (section == 1) {
-        return self.section1List.count;
+        return (self.dataModel.eventPayload == 1 ? self.section1List.count : 1);
     }
     if (section == 2) {
-        return self.section2List.count;
+        return (self.dataModel.deviceInfoPayload == 1 ? self.section2List.count : 1);
     }
     if (section == 3) {
-        return self.section3List.count;
+        return (self.dataModel.heartbeatPayload == 1 ? self.section3List.count : 1);
     }
     return 0;
 }
@@ -131,6 +132,7 @@ MKTextButtonCellDelegate>
         self.dataModel.beaconPayload = dataListIndex;
         MKTextButtonCellModel *cellModel = self.section0List[0];
         cellModel.dataListIndex = dataListIndex;
+        [self.tableView mk_reloadSection:0 withRowAnimation:UITableViewRowAnimationNone];
         return;
     }
     if (index == 1) {
@@ -145,6 +147,7 @@ MKTextButtonCellDelegate>
         self.dataModel.eventPayload = dataListIndex;
         MKTextButtonCellModel *cellModel = self.section1List[0];
         cellModel.dataListIndex = dataListIndex;
+        [self.tableView mk_reloadSection:1 withRowAnimation:UITableViewRowAnimationNone];
         return;
     }
     if (index == 3) {
@@ -159,6 +162,7 @@ MKTextButtonCellDelegate>
         self.dataModel.deviceInfoPayload = dataListIndex;
         MKTextButtonCellModel *cellModel = self.section2List[0];
         cellModel.dataListIndex = dataListIndex;
+        [self.tableView mk_reloadSection:2 withRowAnimation:UITableViewRowAnimationNone];
         return;
     }
     if (index == 5) {
@@ -173,6 +177,7 @@ MKTextButtonCellDelegate>
         self.dataModel.heartbeatPayload = dataListIndex;
         MKTextButtonCellModel *cellModel = self.section3List[0];
         cellModel.dataListIndex = dataListIndex;
+        [self.tableView mk_reloadSection:3 withRowAnimation:UITableViewRowAnimationNone];
         return;
     }
     if (index == 7) {

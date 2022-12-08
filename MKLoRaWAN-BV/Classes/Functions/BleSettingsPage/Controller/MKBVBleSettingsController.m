@@ -339,13 +339,13 @@ MKBVBroadcastTxPowerCellDelegate>
     [[MKHudManager share] showHUDWithTitle:@"Setting..."
                                      inView:self.view
                               isPenetration:NO];
-//    [MKBVInterface bv_configPassword:password sucBlock:^{
-//        [[MKHudManager share] hide];
-//        [self.view showCentralToast:@"Success"];
-//    } failedBlock:^(NSError * _Nonnull error) {
-//        [[MKHudManager share] hide];
-//        [self.view showCentralToast:error.userInfo[@"errorInfo"]];
-//    }];
+    [MKBVInterface bv_configPassword:password sucBlock:^{
+        [[MKHudManager share] hide];
+        [self.view showCentralToast:@"Success"];
+    } failedBlock:^(NSError * _Nonnull error) {
+        [[MKHudManager share] hide];
+        [self.view showCentralToast:error.userInfo[@"errorInfo"]];
+    }];
 }
 
 #pragma mark - loadSectionDatas

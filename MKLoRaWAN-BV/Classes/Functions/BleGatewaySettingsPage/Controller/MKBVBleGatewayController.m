@@ -63,12 +63,13 @@ MKTextFieldCellDelegate>
     [super viewDidAppear:animated];
     self.view.shiftHeightAsDodgeViewForMLInputDodger = 50.0f;
     [self.view registerAsDodgeViewForMLInputDodgerWithOriginalY:self.view.frame.origin.y];
+    [self readDataFromDevice];
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self loadSubViews];
-    [self readDataFromDevice];
+    [self loadSectionDatas];
 }
 
 #pragma mark - super method
@@ -236,7 +237,7 @@ MKTextFieldCellDelegate>
     [self.dataModel readDataWithSucBlock:^{
         @strongify(self);
         [[MKHudManager share] hide];
-        [self loadSectionDatas];
+        [self updateCellDatas];
     } failedBlock:^(NSError * _Nonnull error) {
         @strongify(self);
         [[MKHudManager share] hide];
@@ -256,6 +257,19 @@ MKTextFieldCellDelegate>
         [[MKHudManager share] hide];
         [self.view showCentralToast:error.userInfo[@"errorInfo"]];
     }];
+}
+
+- (void)updateCellDatas {
+    MKTextFieldCellModel *intervalModel = self.section3List[0];
+    intervalModel.textFieldValue = self.dataModel.interval;
+    
+    MKTextButtonCellModel *reportModel = self.section4List[0];
+    reportModel.dataListIndex = self.dataModel.dataLen;
+    
+    MKTextButtonCellModel *strategyModel = self.section5List[0];
+    strategyModel.dataListIndex = self.dataModel.strategy;
+    
+    [self.tableView reloadData];
 }
 
 #pragma mark - loadSectionDatas
@@ -297,7 +311,6 @@ MKTextFieldCellDelegate>
     MKTextFieldCellModel *cellModel = [[MKTextFieldCellModel alloc] init];
     cellModel.index = 0;
     cellModel.msg = @"Heartbeat Interval";
-    cellModel.textFieldValue = self.dataModel.interval;
     cellModel.textPlaceholder = @"1 - 14400";
     cellModel.textFieldType = mk_realNumberOnly;
     cellModel.maxLength = 5;
@@ -310,7 +323,6 @@ MKTextFieldCellDelegate>
     cellModel.index = 0;
     cellModel.msg = @"Report Data Max Length";
     cellModel.dataList = @[@"Level 1",@"Level 2"];
-    cellModel.dataListIndex = self.dataModel.dataLen;
     [self.section4List addObject:cellModel];
 }
 
@@ -320,7 +332,6 @@ MKTextFieldCellDelegate>
     cellModel.msg = @"Data Retention Strategy";
     cellModel.buttonLabelFont = MKFont(12.f);
     cellModel.dataList = @[@"Current Cycle Priority",@"Next Cycle Priority "];
-    cellModel.dataListIndex = self.dataModel.strategy;
     cellModel.noteMsgColor = RGBCOLOR(102, 102, 102);
     cellModel.noteMsg = @"*Data retention strategy when the report interval isn't enough to upload all the data for the current reporting cycle.";
 
