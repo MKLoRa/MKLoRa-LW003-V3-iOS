@@ -432,67 +432,67 @@ PODS:
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/View/MKTextField
-  - MKLoRaWAN-BV (0.1.0):
-    - MKLoRaWAN-BV/ConnectModule (= 0.1.0)
-    - MKLoRaWAN-BV/CTMediator (= 0.1.0)
-    - MKLoRaWAN-BV/DatabaseManager (= 0.1.0)
-    - MKLoRaWAN-BV/Expand (= 0.1.0)
-    - MKLoRaWAN-BV/Functions (= 0.1.0)
-    - MKLoRaWAN-BV/SDK (= 0.1.0)
-    - MKLoRaWAN-BV/Target (= 0.1.0)
-  - MKLoRaWAN-BV/ConnectModule (0.1.0):
+  - MKLoRaWAN-BV (0.1.1):
+    - MKLoRaWAN-BV/ConnectModule (= 0.1.1)
+    - MKLoRaWAN-BV/CTMediator (= 0.1.1)
+    - MKLoRaWAN-BV/DatabaseManager (= 0.1.1)
+    - MKLoRaWAN-BV/Expand (= 0.1.1)
+    - MKLoRaWAN-BV/Functions (= 0.1.1)
+    - MKLoRaWAN-BV/SDK (= 0.1.1)
+    - MKLoRaWAN-BV/Target (= 0.1.1)
+  - MKLoRaWAN-BV/ConnectModule (0.1.1):
     - MKBaseModuleLibrary
     - MKLoRaWAN-BV/SDK
-  - MKLoRaWAN-BV/CTMediator (0.1.0):
+  - MKLoRaWAN-BV/CTMediator (0.1.1):
     - CTMediator
     - MKBaseModuleLibrary
-  - MKLoRaWAN-BV/DatabaseManager (0.1.0):
+  - MKLoRaWAN-BV/DatabaseManager (0.1.1):
     - FMDB
     - MKBaseModuleLibrary
-    - MKLoRaWAN-BV/DatabaseManager/LogDatabase (= 0.1.0)
-    - MKLoRaWAN-BV/DatabaseManager/SyncDatabase (= 0.1.0)
-  - MKLoRaWAN-BV/DatabaseManager/LogDatabase (0.1.0):
+    - MKLoRaWAN-BV/DatabaseManager/LogDatabase (= 0.1.1)
+    - MKLoRaWAN-BV/DatabaseManager/SyncDatabase (= 0.1.1)
+  - MKLoRaWAN-BV/DatabaseManager/LogDatabase (0.1.1):
     - FMDB
     - MKBaseModuleLibrary
-  - MKLoRaWAN-BV/DatabaseManager/SyncDatabase (0.1.0):
+  - MKLoRaWAN-BV/DatabaseManager/SyncDatabase (0.1.1):
     - FMDB
     - MKBaseModuleLibrary
-  - MKLoRaWAN-BV/Expand (0.1.0):
+  - MKLoRaWAN-BV/Expand (0.1.1):
     - MKBaseModuleLibrary
     - MKCustomUIModule
-    - MKLoRaWAN-BV/Expand/FilterCell (= 0.1.0)
-    - MKLoRaWAN-BV/Expand/ReportTimePointCell (= 0.1.0)
-    - MKLoRaWAN-BV/Expand/TextButtonCell (= 0.1.0)
-    - MKLoRaWAN-BV/Expand/TimingModeAddCell (= 0.1.0)
-  - MKLoRaWAN-BV/Expand/FilterCell (0.1.0):
+    - MKLoRaWAN-BV/Expand/FilterCell (= 0.1.1)
+    - MKLoRaWAN-BV/Expand/ReportTimePointCell (= 0.1.1)
+    - MKLoRaWAN-BV/Expand/TextButtonCell (= 0.1.1)
+    - MKLoRaWAN-BV/Expand/TimingModeAddCell (= 0.1.1)
+  - MKLoRaWAN-BV/Expand/FilterCell (0.1.1):
     - MKBaseModuleLibrary
     - MKCustomUIModule
-    - MKLoRaWAN-BV/Expand/FilterCell/FilterBeaconCell (= 0.1.0)
-    - MKLoRaWAN-BV/Expand/FilterCell/FilterByRawDataCell (= 0.1.0)
-    - MKLoRaWAN-BV/Expand/FilterCell/FilterEditSectionHeaderView (= 0.1.0)
-    - MKLoRaWAN-BV/Expand/FilterCell/FilterNormalTextFieldCell (= 0.1.0)
-  - MKLoRaWAN-BV/Expand/FilterCell/FilterBeaconCell (0.1.0):
+    - MKLoRaWAN-BV/Expand/FilterCell/FilterBeaconCell (= 0.1.1)
+    - MKLoRaWAN-BV/Expand/FilterCell/FilterByRawDataCell (= 0.1.1)
+    - MKLoRaWAN-BV/Expand/FilterCell/FilterEditSectionHeaderView (= 0.1.1)
+    - MKLoRaWAN-BV/Expand/FilterCell/FilterNormalTextFieldCell (= 0.1.1)
+  - MKLoRaWAN-BV/Expand/FilterCell/FilterBeaconCell (0.1.1):
     - MKBaseModuleLibrary
     - MKCustomUIModule
-  - MKLoRaWAN-BV/Expand/FilterCell/FilterByRawDataCell (0.1.0):
+  - MKLoRaWAN-BV/Expand/FilterCell/FilterByRawDataCell (0.1.1):
     - MKBaseModuleLibrary
     - MKCustomUIModule
-  - MKLoRaWAN-BV/Expand/FilterCell/FilterEditSectionHeaderView (0.1.0):
+  - MKLoRaWAN-BV/Expand/FilterCell/FilterEditSectionHeaderView (0.1.1):
     - MKBaseModuleLibrary
     - MKCustomUIModule
-  - MKLoRaWAN-BV/Expand/FilterCell/FilterNormalTextFieldCell (0.1.0):
+  - MKLoRaWAN-BV/Expand/FilterCell/FilterNormalTextFieldCell (0.1.1):
     - MKBaseModuleLibrary
     - MKCustomUIModule
-  - MKLoRaWAN-BV/Expand/ReportTimePointCell (0.1.0):
+  - MKLoRaWAN-BV/Expand/ReportTimePointCell (0.1.1):
     - MKBaseModuleLibrary
     - MKCustomUIModule
-  - MKLoRaWAN-BV/Expand/TextButtonCell (0.1.0):
+  - MKLoRaWAN-BV/Expand/TextButtonCell (0.1.1):
     - MKBaseModuleLibrary
     - MKCustomUIModule
-  - MKLoRaWAN-BV/Expand/TimingModeAddCell (0.1.0):
+  - MKLoRaWAN-BV/Expand/TimingModeAddCell (0.1.1):
     - MKBaseModuleLibrary
     - MKCustomUIModule
-  - MKLoRaWAN-BV/Functions (0.1.0):
+  - MKLoRaWAN-BV/Functions (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -501,51 +501,51 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/AboutPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/BeaconContentPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/BleGatewaySettingsPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/BleSettingsPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/BXPAccContentPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/BXPBeaconContentPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/BXPButtonContentPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/BXPInfoContentPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/BXPTagContentPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/BXPTHContentPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/DebuggerPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/DeviceInfoPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/DeviceSettingsPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/FilterPages (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/GeneralPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/IndicatorSettingPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/LoRaApplicationPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/LoRaPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/LoRaSettingPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/MessageTypePage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/MulticaseGroupPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/OnOffSettingsPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/OtherTypeContentPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/PayloadContentPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/PeriodicImmediatelyPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/PeriodicScanPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/PeriodicTimingPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/ScanAlwaysPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/ScanPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/ScanReportPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/ScanTimePointModel (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/ScanTimingPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/SelftestPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/SynDataPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/TabBarPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/THSettingsPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/TimingImmediatelyPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/TimingReportPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/TLMContentPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/UIDContentPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/UpdatePage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/URLContentPage (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/AboutPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/BeaconContentPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/BleGatewaySettingsPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/BleSettingsPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/BXPAccContentPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/BXPBeaconContentPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/BXPButtonContentPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/BXPInfoContentPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/BXPTagContentPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/BXPTHContentPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/DebuggerPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/DeviceInfoPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/DeviceSettingsPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/FilterPages (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/GeneralPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/IndicatorSettingPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/LoRaApplicationPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/LoRaPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/LoRaSettingPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/MessageTypePage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/MulticaseGroupPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/OnOffSettingsPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/OtherTypeContentPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/PayloadContentPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/PeriodicImmediatelyPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/PeriodicScanPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/PeriodicTimingPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/ScanAlwaysPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/ScanPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/ScanReportPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/ScanTimePointModel (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/ScanTimingPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/SelftestPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/SynDataPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/TabBarPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/THSettingsPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/TimingImmediatelyPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/TimingReportPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/TLMContentPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/UIDContentPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/UpdatePage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/URLContentPage (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/AboutPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/AboutPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -554,10 +554,10 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/AboutPage/Controller (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/AboutPage/Controller (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/AboutPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/AboutPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -568,7 +568,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/BeaconContentPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/BeaconContentPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -577,11 +577,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/BeaconContentPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/BeaconContentPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/BeaconContentPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/BeaconContentPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/BeaconContentPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/BeaconContentPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -593,7 +593,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/BeaconContentPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/BeaconContentPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/BeaconContentPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -604,7 +604,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/BleGatewaySettingsPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/BleGatewaySettingsPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -613,11 +613,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/BleGatewaySettingsPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/BleGatewaySettingsPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/BleGatewaySettingsPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/BleGatewaySettingsPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/BleGatewaySettingsPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/BleGatewaySettingsPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -632,7 +632,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/ScanReportPage/Controller
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/BleGatewaySettingsPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/BleGatewaySettingsPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -643,7 +643,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/BleSettingsPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/BleSettingsPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -652,12 +652,12 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/BleSettingsPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/BleSettingsPage/Model (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/BleSettingsPage/View (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/BleSettingsPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/BleSettingsPage/Model (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/BleSettingsPage/View (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/BleSettingsPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/BleSettingsPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -670,7 +670,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/BleSettingsPage/View
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/BleSettingsPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/BleSettingsPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -681,7 +681,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/BleSettingsPage/View (0.1.0):
+  - MKLoRaWAN-BV/Functions/BleSettingsPage/View (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -692,7 +692,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/BXPAccContentPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/BXPAccContentPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -701,11 +701,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/BXPAccContentPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/BXPAccContentPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/BXPAccContentPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/BXPAccContentPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/BXPAccContentPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/BXPAccContentPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -717,7 +717,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/BXPAccContentPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/BXPAccContentPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/BXPAccContentPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -728,7 +728,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/BXPBeaconContentPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/BXPBeaconContentPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -737,11 +737,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/BXPBeaconContentPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/BXPBeaconContentPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/BXPBeaconContentPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/BXPBeaconContentPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/BXPBeaconContentPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/BXPBeaconContentPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -753,7 +753,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/BXPBeaconContentPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/BXPBeaconContentPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/BXPBeaconContentPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -764,7 +764,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/BXPButtonContentPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/BXPButtonContentPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -773,11 +773,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/BXPButtonContentPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/BXPButtonContentPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/BXPButtonContentPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/BXPButtonContentPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/BXPButtonContentPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/BXPButtonContentPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -789,7 +789,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/BXPButtonContentPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/BXPButtonContentPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/BXPButtonContentPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -800,7 +800,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/BXPInfoContentPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/BXPInfoContentPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -809,11 +809,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/BXPInfoContentPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/BXPInfoContentPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/BXPInfoContentPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/BXPInfoContentPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/BXPInfoContentPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/BXPInfoContentPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -825,7 +825,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/BXPInfoContentPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/BXPInfoContentPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/BXPInfoContentPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -836,7 +836,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/BXPTagContentPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/BXPTagContentPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -845,11 +845,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/BXPTagContentPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/BXPTagContentPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/BXPTagContentPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/BXPTagContentPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/BXPTagContentPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/BXPTagContentPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -861,7 +861,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/BXPTagContentPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/BXPTagContentPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/BXPTagContentPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -872,7 +872,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/BXPTHContentPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/BXPTHContentPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -881,11 +881,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/BXPTHContentPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/BXPTHContentPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/BXPTHContentPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/BXPTHContentPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/BXPTHContentPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/BXPTHContentPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -897,7 +897,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/BXPTHContentPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/BXPTHContentPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/BXPTHContentPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -908,7 +908,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/DebuggerPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/DebuggerPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -917,11 +917,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/DebuggerPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/DebuggerPage/View (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/DebuggerPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/DebuggerPage/View (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/DebuggerPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/DebuggerPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -933,7 +933,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/DebuggerPage/View
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/DebuggerPage/View (0.1.0):
+  - MKLoRaWAN-BV/Functions/DebuggerPage/View (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -944,7 +944,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/DeviceInfoPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/DeviceInfoPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -953,11 +953,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/DeviceInfoPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/DeviceInfoPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/DeviceInfoPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/DeviceInfoPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/DeviceInfoPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/DeviceInfoPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -972,7 +972,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/UpdatePage/Controller
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/DeviceInfoPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/DeviceInfoPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -983,7 +983,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/DeviceSettingsPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/DeviceSettingsPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -992,11 +992,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/DeviceSettingsPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/DeviceSettingsPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/DeviceSettingsPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/DeviceSettingsPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/DeviceSettingsPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/DeviceSettingsPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1011,7 +1011,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/SynDataPage/Controller
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/DeviceSettingsPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/DeviceSettingsPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1022,7 +1022,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1031,20 +1031,20 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByAdvNamePage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPButtonPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPTagPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByMacPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByOtherPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByRawDataPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByTLMPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByUIDPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByURLPage (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByAdvNamePage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPButtonPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPTagPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByMacPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByOtherPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByRawDataPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByTLMPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByUIDPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByURLPage (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByAdvNamePage (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByAdvNamePage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1053,11 +1053,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByAdvNamePage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByAdvNamePage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByAdvNamePage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByAdvNamePage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByAdvNamePage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByAdvNamePage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1069,7 +1069,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByAdvNamePage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByAdvNamePage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByAdvNamePage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1080,7 +1080,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1089,12 +1089,12 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Header (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Header (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1107,7 +1107,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Header (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Header (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1118,7 +1118,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1130,7 +1130,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Header
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPButtonPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPButtonPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1139,11 +1139,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPButtonPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPButtonPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPButtonPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPButtonPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPButtonPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPButtonPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1155,7 +1155,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPButtonPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPButtonPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPButtonPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1166,7 +1166,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPTagPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPTagPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1175,11 +1175,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPTagPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPTagPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPTagPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPTagPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPTagPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPTagPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1191,7 +1191,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPTagPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPTagPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPTagPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1202,7 +1202,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByMacPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByMacPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1211,11 +1211,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByMacPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByMacPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByMacPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByMacPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByMacPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByMacPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1227,7 +1227,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByMacPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByMacPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByMacPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1238,7 +1238,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByOtherPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByOtherPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1247,11 +1247,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByOtherPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByOtherPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByOtherPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByOtherPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByOtherPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByOtherPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1263,7 +1263,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByOtherPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByOtherPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByOtherPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1274,7 +1274,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByRawDataPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByRawDataPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1283,11 +1283,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByRawDataPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByRawDataPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByRawDataPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByRawDataPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByRawDataPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByRawDataPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1306,7 +1306,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByURLPage/Controller
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByRawDataPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByRawDataPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1317,7 +1317,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByTLMPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByTLMPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1326,11 +1326,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByTLMPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByTLMPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByTLMPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByTLMPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByTLMPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByTLMPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1342,7 +1342,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByTLMPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByTLMPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByTLMPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1353,7 +1353,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByUIDPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByUIDPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1362,11 +1362,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByUIDPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByUIDPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByUIDPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByUIDPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByUIDPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByUIDPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1378,7 +1378,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByUIDPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByUIDPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByUIDPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1389,7 +1389,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByURLPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByURLPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1398,11 +1398,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByURLPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterByURLPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByURLPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterByURLPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByURLPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByURLPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1414,7 +1414,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByURLPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterByURLPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterByURLPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1425,7 +1425,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1434,12 +1434,12 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage/Model (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage/View (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage/Model (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage/View (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1455,7 +1455,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage/View
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1466,7 +1466,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage/View (0.1.0):
+  - MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage/View (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1477,7 +1477,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/GeneralPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/GeneralPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1486,11 +1486,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/GeneralPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/GeneralPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/GeneralPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/GeneralPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/GeneralPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/GeneralPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1505,7 +1505,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/THSettingsPage/Controller
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/GeneralPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/GeneralPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1516,7 +1516,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/IndicatorSettingPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/IndicatorSettingPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1525,11 +1525,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/IndicatorSettingPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/IndicatorSettingPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/IndicatorSettingPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/IndicatorSettingPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/IndicatorSettingPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/IndicatorSettingPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1541,7 +1541,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/IndicatorSettingPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/IndicatorSettingPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/IndicatorSettingPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1552,7 +1552,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/LoRaApplicationPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/LoRaApplicationPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1561,11 +1561,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/LoRaApplicationPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/LoRaApplicationPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/LoRaApplicationPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/LoRaApplicationPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/LoRaApplicationPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/LoRaApplicationPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1579,7 +1579,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/MulticaseGroupPage/Controller
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/LoRaApplicationPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/LoRaApplicationPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1590,7 +1590,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/LoRaPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/LoRaPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1599,11 +1599,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/LoRaPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/LoRaPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/LoRaPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/LoRaPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/LoRaPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/LoRaPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1617,7 +1617,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/LoRaSettingPage/Controller
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/LoRaPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/LoRaPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1628,7 +1628,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/LoRaSettingPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/LoRaSettingPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1637,11 +1637,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/LoRaSettingPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/LoRaSettingPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/LoRaSettingPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/LoRaSettingPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/LoRaSettingPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/LoRaSettingPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1653,7 +1653,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/LoRaSettingPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/LoRaSettingPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/LoRaSettingPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1664,7 +1664,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/MessageTypePage (0.1.0):
+  - MKLoRaWAN-BV/Functions/MessageTypePage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1673,11 +1673,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/MessageTypePage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/MessageTypePage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/MessageTypePage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/MessageTypePage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/MessageTypePage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/MessageTypePage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1689,7 +1689,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/MessageTypePage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/MessageTypePage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/MessageTypePage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1700,7 +1700,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/MulticaseGroupPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/MulticaseGroupPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1709,11 +1709,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/MulticaseGroupPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/MulticaseGroupPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/MulticaseGroupPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/MulticaseGroupPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/MulticaseGroupPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/MulticaseGroupPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1725,7 +1725,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/MulticaseGroupPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/MulticaseGroupPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/MulticaseGroupPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1736,7 +1736,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/OnOffSettingsPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/OnOffSettingsPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1745,11 +1745,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/OnOffSettingsPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/OnOffSettingsPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/OnOffSettingsPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/OnOffSettingsPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/OnOffSettingsPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/OnOffSettingsPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1761,7 +1761,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/OnOffSettingsPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/OnOffSettingsPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/OnOffSettingsPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1772,7 +1772,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/OtherTypeContentPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/OtherTypeContentPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1781,12 +1781,12 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/OtherTypeContentPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/OtherTypeContentPage/Model (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/OtherTypeContentPage/View (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/OtherTypeContentPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/OtherTypeContentPage/Model (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/OtherTypeContentPage/View (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/OtherTypeContentPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/OtherTypeContentPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1799,7 +1799,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/OtherTypeContentPage/View
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/OtherTypeContentPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/OtherTypeContentPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1810,7 +1810,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/OtherTypeContentPage/View (0.1.0):
+  - MKLoRaWAN-BV/Functions/OtherTypeContentPage/View (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1821,7 +1821,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/PayloadContentPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/PayloadContentPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1830,10 +1830,10 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/PayloadContentPage/Controller (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/PayloadContentPage/Controller (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/PayloadContentPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/PayloadContentPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1855,7 +1855,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/URLContentPage/Controller
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/PeriodicImmediatelyPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/PeriodicImmediatelyPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1864,11 +1864,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/PeriodicImmediatelyPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/PeriodicImmediatelyPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/PeriodicImmediatelyPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/PeriodicImmediatelyPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/PeriodicImmediatelyPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/PeriodicImmediatelyPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1880,7 +1880,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/PeriodicImmediatelyPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/PeriodicImmediatelyPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/PeriodicImmediatelyPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1891,7 +1891,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/PeriodicScanPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/PeriodicScanPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1900,11 +1900,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/PeriodicScanPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/PeriodicScanPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/PeriodicScanPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/PeriodicScanPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/PeriodicScanPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/PeriodicScanPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1916,7 +1916,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/PeriodicScanPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/PeriodicScanPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/PeriodicScanPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1927,7 +1927,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/PeriodicTimingPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/PeriodicTimingPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1936,11 +1936,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/PeriodicTimingPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/PeriodicTimingPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/PeriodicTimingPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/PeriodicTimingPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/PeriodicTimingPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/PeriodicTimingPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1953,7 +1953,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/ScanTimePointModel
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/PeriodicTimingPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/PeriodicTimingPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1964,7 +1964,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/ScanAlwaysPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/ScanAlwaysPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1973,11 +1973,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/ScanAlwaysPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/ScanAlwaysPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/ScanAlwaysPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/ScanAlwaysPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/ScanAlwaysPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/ScanAlwaysPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -1989,7 +1989,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/ScanAlwaysPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/ScanAlwaysPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/ScanAlwaysPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2000,7 +2000,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/ScanPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/ScanPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2009,12 +2009,12 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/ScanPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/ScanPage/Model (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/ScanPage/View (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/ScanPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/ScanPage/Model (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/ScanPage/View (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/ScanPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/ScanPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2028,7 +2028,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/TabBarPage/Controller
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/ScanPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/ScanPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2039,7 +2039,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/ScanPage/View (0.1.0):
+  - MKLoRaWAN-BV/Functions/ScanPage/View (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2051,7 +2051,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/ScanPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/ScanReportPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/ScanReportPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2060,11 +2060,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/ScanReportPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/ScanReportPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/ScanReportPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/ScanReportPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/ScanReportPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/ScanReportPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2083,7 +2083,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/TimingReportPage/Controller
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/ScanReportPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/ScanReportPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2094,7 +2094,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/ScanTimePointModel (0.1.0):
+  - MKLoRaWAN-BV/Functions/ScanTimePointModel (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2105,7 +2105,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/ScanTimingPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/ScanTimingPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2114,11 +2114,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/ScanTimingPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/ScanTimingPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/ScanTimingPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/ScanTimingPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/ScanTimingPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/ScanTimingPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2131,7 +2131,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/ScanTimingPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/ScanTimingPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/ScanTimingPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2142,7 +2142,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/SelftestPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/SelftestPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2151,12 +2151,12 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/SelftestPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/SelftestPage/Model (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/SelftestPage/View (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/SelftestPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/SelftestPage/Model (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/SelftestPage/View (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/SelftestPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/SelftestPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2169,7 +2169,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/SelftestPage/View
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/SelftestPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/SelftestPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2180,7 +2180,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/SelftestPage/View (0.1.0):
+  - MKLoRaWAN-BV/Functions/SelftestPage/View (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2191,7 +2191,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/SynDataPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/SynDataPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2200,11 +2200,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/SynDataPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/SynDataPage/View (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/SynDataPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/SynDataPage/View (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/SynDataPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/SynDataPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2216,7 +2216,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/SynDataPage/View
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/SynDataPage/View (0.1.0):
+  - MKLoRaWAN-BV/Functions/SynDataPage/View (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2227,7 +2227,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/TabBarPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/TabBarPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2236,10 +2236,10 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/TabBarPage/Controller (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/TabBarPage/Controller (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/TabBarPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/TabBarPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2254,7 +2254,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/LoRaPage/Controller
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/THSettingsPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/THSettingsPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2263,11 +2263,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/THSettingsPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/THSettingsPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/THSettingsPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/THSettingsPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/THSettingsPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/THSettingsPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2279,7 +2279,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/THSettingsPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/THSettingsPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/THSettingsPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2290,7 +2290,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/TimingImmediatelyPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/TimingImmediatelyPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2299,11 +2299,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/TimingImmediatelyPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/TimingImmediatelyPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/TimingImmediatelyPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/TimingImmediatelyPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/TimingImmediatelyPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/TimingImmediatelyPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2316,7 +2316,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/TimingImmediatelyPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/TimingImmediatelyPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/TimingImmediatelyPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2327,7 +2327,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/TimingReportPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/TimingReportPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2336,11 +2336,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/TimingReportPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/TimingReportPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/TimingReportPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/TimingReportPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/TimingReportPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/TimingReportPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2353,7 +2353,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/TimingReportPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/TimingReportPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/TimingReportPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2364,7 +2364,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/TLMContentPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/TLMContentPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2373,11 +2373,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/TLMContentPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/TLMContentPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/TLMContentPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/TLMContentPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/TLMContentPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/TLMContentPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2389,7 +2389,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/TLMContentPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/TLMContentPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/TLMContentPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2400,7 +2400,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/UIDContentPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/UIDContentPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2409,11 +2409,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/UIDContentPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/UIDContentPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/UIDContentPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/UIDContentPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/UIDContentPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/UIDContentPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2425,7 +2425,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/UIDContentPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/UIDContentPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/UIDContentPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2436,7 +2436,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/UpdatePage (0.1.0):
+  - MKLoRaWAN-BV/Functions/UpdatePage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2445,11 +2445,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/UpdatePage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/UpdatePage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/UpdatePage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/UpdatePage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/UpdatePage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/UpdatePage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2461,7 +2461,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/UpdatePage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/UpdatePage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/UpdatePage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2472,7 +2472,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/URLContentPage (0.1.0):
+  - MKLoRaWAN-BV/Functions/URLContentPage (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2481,11 +2481,11 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
-    - MKLoRaWAN-BV/Functions/URLContentPage/Controller (= 0.1.0)
-    - MKLoRaWAN-BV/Functions/URLContentPage/Model (= 0.1.0)
+    - MKLoRaWAN-BV/Functions/URLContentPage/Controller (= 0.1.1)
+    - MKLoRaWAN-BV/Functions/URLContentPage/Model (= 0.1.1)
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/URLContentPage/Controller (0.1.0):
+  - MKLoRaWAN-BV/Functions/URLContentPage/Controller (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2497,7 +2497,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/URLContentPage/Model
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/Functions/URLContentPage/Model (0.1.0):
+  - MKLoRaWAN-BV/Functions/URLContentPage/Model (0.1.1):
     - HHTransition
     - iOSDFULibrary
     - MKBaseModuleLibrary
@@ -2508,9 +2508,9 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
-  - MKLoRaWAN-BV/SDK (0.1.0):
+  - MKLoRaWAN-BV/SDK (0.1.1):
     - MKBaseBleModule
-  - MKLoRaWAN-BV/Target (0.1.0):
+  - MKLoRaWAN-BV/Target (0.1.1):
     - MKLoRaWAN-BV/Functions
   - MLInputDodger (1.5.2)
   - Toast (4.0.0)
@@ -2554,7 +2554,7 @@ SPEC CHECKSUMS:
   MKBaseBleModule: 15aa067c4e408a473e025b1a768ebce00a7e5949
   MKBaseModuleLibrary: 6de43aeeb519d1c5f3aa94ebaffe8b3a57351312
   MKCustomUIModule: 83b76a0ccd1ac855157091b389154bd6a309c414
-  MKLoRaWAN-BV: ed7a80873251a39a05309ff65071e7759697880e
+  MKLoRaWAN-BV: 6e0a67c93ffe4f0e02d3c85f60df923304d699f1
   MLInputDodger: 79a0e420a80d0d3bba122bf2639603cc76609ba8
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
   WRNavigationBar: 10bfdf96addf14d640d07c2ef08a029c18d8af10
