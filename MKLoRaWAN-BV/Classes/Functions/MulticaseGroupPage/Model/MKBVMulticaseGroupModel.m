@@ -55,10 +55,6 @@
             [self operationFailedBlockWithMsg:@"Opps！Save failed. Please check the input characters and try again." block:failedBlock];
             return;
         }
-        if (![self configGroupStatus]) {
-            [self operationFailedBlockWithMsg:@"Config Multicase Group Status Error" block:failedBlock];
-            return;
-        }
         if (![self configMcAddr]) {
             [self operationFailedBlockWithMsg:@"Config McAddr Error" block:failedBlock];
             return;
@@ -69,6 +65,10 @@
         }
         if (![self configMcNwkSkey]) {
             [self operationFailedBlockWithMsg:@"Config McNwkSkey Error" block:failedBlock];
+            return;
+        }
+        if (![self configGroupStatus]) {
+            [self operationFailedBlockWithMsg:@"Config Multicase Group Status Error" block:failedBlock];
             return;
         }
         moko_dispatch_main_safe(^{

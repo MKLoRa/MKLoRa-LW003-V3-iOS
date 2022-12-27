@@ -19,7 +19,7 @@
     if (![db open]) {
         return NO;
     }
-    NSString *sqlCreateTable = [NSString stringWithFormat:@"create table if not exists LoRaWANBVTable (date text,rawData text)"];
+    NSString *sqlCreateTable = [NSString stringWithFormat:@"create table if not exists LoRaWANBVTable (timestamp text,timezone text,deviceType text,macAddress text,rssi text,rawData text)"];
     BOOL resCreate = [db executeUpdate:sqlCreateTable];
     if (!resCreate) {
         [db close];
@@ -40,7 +40,7 @@
         [self operationInsertFailedBlock:failedBlock];
         return;
     }
-    NSString *sqlCreateTable = [NSString stringWithFormat:@"create table if not exists LoRaWANBVTable (date text,rawData text)"];
+    NSString *sqlCreateTable = [NSString stringWithFormat:@"create table if not exists LoRaWANBVTable (timestamp text,timezone text,deviceType text,macAddress text,rssi text,rawData text)"];
     BOOL resCreate = [db executeUpdate:sqlCreateTable];
     if (!resCreate) {
         [db close];
@@ -49,7 +49,7 @@
     }
     [[FMDatabaseQueue databaseQueueWithPath:kFilePath(@"LoRaWANBVDB")] inDatabase:^(FMDatabase *db) {
         for (NSDictionary *dic in dataList) {
-            [db executeUpdate:@"INSERT INTO LoRaWANBVTable (date, rawData) VALUES (?,?)",SafeStr(dic[@"date"]),SafeStr(dic[@"rawData"])];
+            [db executeUpdate:@"INSERT INTO LoRaWANBVTable (timestamp, timezone, deviceType, macAddress, rssi,rawData) VALUES (?,?,?,?,?,?)",SafeStr(dic[@"timestamp"]),SafeStr(dic[@"timezone"]),SafeStr(dic[@"deviceType"]),SafeStr(dic[@"macAddress"]),SafeStr(dic[@"rssi"]),SafeStr(dic[@"rawData"])];
         }
         if (sucBlock) {
             moko_dispatch_main_safe(^{
@@ -72,7 +72,11 @@
         FMResultSet * result = [db executeQuery:@"SELECT * FROM LoRaWANBVTable"];
         while ([result next]) {
             NSDictionary *resultDic = @{
-                @"date":[result stringForColumn:@"date"],
+                @"timestamp":[result stringForColumn:@"timestamp"],
+                @"timezone":[result stringForColumn:@"timezone"],
+                @"deviceType":[result stringForColumn:@"deviceType"],
+                @"macAddress":[result stringForColumn:@"macAddress"],
+                @"rssi":[result stringForColumn:@"rssi"],
                 @"rawData":[result stringForColumn:@"rawData"],
             };
             [tempDataList addObject:resultDic];

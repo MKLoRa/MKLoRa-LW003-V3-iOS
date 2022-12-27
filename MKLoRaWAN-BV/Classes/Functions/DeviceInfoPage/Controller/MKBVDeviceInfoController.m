@@ -268,7 +268,7 @@ MKBVTextButtonCellDelegate>
     
     if (ValidStr(self.dataModel.bleScan)) {
         MKNormalTextCellModel *scanModel = self.section5List[1];
-        scanModel.rightMsg = [self.dataModel.bleScan stringByAppendingString:@" ms"];
+        scanModel.rightMsg = [self.dataModel.bleScan stringByAppendingString:@" s"];
     }
     
     if (ValidStr(self.dataModel.lora)) {

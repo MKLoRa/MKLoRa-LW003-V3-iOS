@@ -826,11 +826,11 @@ NSString *const mk_bv_contentKey = @"mk_bv_contentKey";
         BOOL macAddress = [[binaryLow substringWithRange:NSMakeRange(7, 1)] isEqualToString:@"1"];
         BOOL rssi = [[binaryLow substringWithRange:NSMakeRange(6, 1)] isEqualToString:@"1"];
         BOOL timestamp = [[binaryLow substringWithRange:NSMakeRange(5, 1)] isEqualToString:@"1"];
-        BOOL firmwareType = [[binaryLow substringWithRange:NSMakeRange(4, 1)] isEqualToString:@"1"];
+        BOOL frameType = [[binaryLow substringWithRange:NSMakeRange(4, 1)] isEqualToString:@"1"];
         BOOL statusFlag = [[binaryLow substringWithRange:NSMakeRange(3, 1)] isEqualToString:@"1"];
         BOOL triggerCount = [[binaryLow substringWithRange:NSMakeRange(2, 1)] isEqualToString:@"1"];
         BOOL deviceID = [[binaryLow substringWithRange:NSMakeRange(1, 1)] isEqualToString:@"1"];
-        BOOL frameType = [[binaryLow substringWithRange:NSMakeRange(0, 1)] isEqualToString:@"1"];
+        BOOL firmwareType = [[binaryLow substringWithRange:NSMakeRange(0, 1)] isEqualToString:@"1"];
         
         BOOL deviceName = [[binaryCenter substringWithRange:NSMakeRange(7, 1)] isEqualToString:@"1"];
         BOOL fullScale = [[binaryCenter substringWithRange:NSMakeRange(6, 1)] isEqualToString:@"1"];
