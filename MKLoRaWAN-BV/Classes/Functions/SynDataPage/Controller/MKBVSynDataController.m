@@ -601,7 +601,7 @@ mk_bv_storageDataDelegate>
         index += subLen * 2;
         NSDictionary *dic = @{
             @"timestamp":timestamp,
-            @"timezone":timezone,
+            @"timezone":[NSString stringWithFormat:@"%@",timezone],
             @"deviceType":deviceType,
             @"macAddress":macAddress,
             @"rssi":[NSString stringWithFormat:@"%@",rssi],
