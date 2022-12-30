@@ -13,8 +13,6 @@
 #import "MKBVInterface.h"
 #import "MKBVInterface+MKBVConfig.h"
 
-#import "MKBVScanTimePointModel.h"
-
 @interface MKBVScanTimingModel ()
 
 @property (nonatomic, strong)dispatch_queue_t readQueue;

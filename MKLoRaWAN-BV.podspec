@@ -660,6 +660,8 @@ TODO: Add long description of the pod here.
       
       sss.subspec 'Model' do |ssss|
         ssss.source_files = 'MKLoRaWAN-BV/Classes/Functions/PeriodicTimingPage/Model/**'
+        
+        ssss.dependency 'MKLoRaWAN-BV/Functions/ScanTimePointModel'
       end
       
     end
@@ -735,6 +737,8 @@ TODO: Add long description of the pod here.
       
       sss.subspec 'Model' do |ssss|
         ssss.source_files = 'MKLoRaWAN-BV/Classes/Functions/ScanTimingPage/Model/**'
+        
+        ssss.dependency 'MKLoRaWAN-BV/Functions/ScanTimePointModel'
       end
       
     end
@@ -805,6 +809,8 @@ TODO: Add long description of the pod here.
       
       sss.subspec 'Model' do |ssss|
         ssss.source_files = 'MKLoRaWAN-BV/Classes/Functions/TimingImmediatelyPage/Model/**'
+        
+        ssss.dependency 'MKLoRaWAN-BV/Functions/ScanTimePointModel'
       end
       
     end
@@ -821,6 +827,8 @@ TODO: Add long description of the pod here.
       
       sss.subspec 'Model' do |ssss|
         ssss.source_files = 'MKLoRaWAN-BV/Classes/Functions/TimingReportPage/Model/**'
+        
+        ssss.dependency 'MKLoRaWAN-BV/Functions/ScanTimePointModel'
       end
       
     end

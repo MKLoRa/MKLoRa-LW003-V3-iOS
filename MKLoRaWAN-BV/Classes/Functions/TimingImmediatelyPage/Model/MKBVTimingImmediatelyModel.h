@@ -8,9 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+#import "MKBVScanTimePointModel.h"
+
 NS_ASSUME_NONNULL_BEGIN
 
-@class MKBVScanTimePointModel;
 @interface MKBVTimingImmediatelyModel : NSObject
 
 @property (nonatomic, copy)NSString *duration;
