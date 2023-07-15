@@ -1,9 +1,9 @@
 {
   "name": "MKLoRaWAN-BV",
-  "version": "0.1.1",
-  "summary": "A short description of MKLoRaWAN-BV.",
+  "version": "0.0.1",
+  "summary": "LW003-V3",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/aadyx2007@163.com/MKLoRaWAN-BV",
+  "homepage": "https://github.com/MKLoRa/MKLoRa-LW003-V3-iOS",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "aadyx2007@163.com": "aadyx2007@163.com"
   },
   "source": {
-    "git": "https://github.com/aadyx2007@163.com/MKLoRaWAN-BV.git",
-    "tag": "0.1.1"
+    "git": "https://github.com/MKLoRa/MKLoRa-LW003-V3-iOS.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "12.0"
@@ -970,7 +970,12 @@
             },
             {
               "name": "Model",
-              "source_files": "MKLoRaWAN-BV/Classes/Functions/PeriodicTimingPage/Model/**"
+              "source_files": "MKLoRaWAN-BV/Classes/Functions/PeriodicTimingPage/Model/**",
+              "dependencies": {
+                "MKLoRaWAN-BV/Functions/ScanTimePointModel": [
+
+                ]
+              }
             }
           ]
         },
@@ -1081,7 +1086,12 @@
             },
             {
               "name": "Model",
-              "source_files": "MKLoRaWAN-BV/Classes/Functions/ScanTimingPage/Model/**"
+              "source_files": "MKLoRaWAN-BV/Classes/Functions/ScanTimingPage/Model/**",
+              "dependencies": {
+                "MKLoRaWAN-BV/Functions/ScanTimePointModel": [
+
+                ]
+              }
             }
           ]
         },
@@ -1186,7 +1196,12 @@
             },
             {
               "name": "Model",
-              "source_files": "MKLoRaWAN-BV/Classes/Functions/TimingImmediatelyPage/Model/**"
+              "source_files": "MKLoRaWAN-BV/Classes/Functions/TimingImmediatelyPage/Model/**",
+              "dependencies": {
+                "MKLoRaWAN-BV/Functions/ScanTimePointModel": [
+
+                ]
+              }
             }
           ]
         },
@@ -1207,7 +1222,12 @@
             },
             {
               "name": "Model",
-              "source_files": "MKLoRaWAN-BV/Classes/Functions/TimingReportPage/Model/**"
+              "source_files": "MKLoRaWAN-BV/Classes/Functions/TimingReportPage/Model/**",
+              "dependencies": {
+                "MKLoRaWAN-BV/Functions/ScanTimePointModel": [
+
+                ]
+              }
             }
           ]
         },
