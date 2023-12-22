@@ -1,6 +1,6 @@
 {
   "name": "MKLoRaWAN-BV",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "LW003-V3",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/MKLoRa/MKLoRa-LW003-V3-iOS",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/MKLoRa/MKLoRa-LW003-V3-iOS.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
-    "ios": "12.0"
+    "ios": "14.0"
   },
   "resource_bundles": {
     "MKLoRaWAN-BV": [
@@ -164,7 +164,7 @@
 
         ],
         "iOSDFULibrary": [
-
+          "4.13.0"
         ]
       },
       "subspecs": [
