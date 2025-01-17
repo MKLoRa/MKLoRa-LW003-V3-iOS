@@ -325,6 +325,11 @@ mk_textSwitchCellDelegate>
     promptModel.noteMsg = [NSString stringWithFormat:@"*When the battery is less than or equal to %@, the red LED will flash once every 30 seconds.",promptModel.dataList[self.dataModel.prompt]];
     
     [self.tableView reloadData];
+    
+    //让MKPickView消失
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"mk_customUIModule_dismissPickView"
+                                                        object:nil
+                                                      userInfo:nil];
 }
 
 #pragma mark - 恢复出厂设置
