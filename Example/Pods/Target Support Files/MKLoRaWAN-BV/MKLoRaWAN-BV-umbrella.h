@@ -132,6 +132,8 @@
 #import "MKBVURLContentModel.h"
 #import "MKBVUpdateController.h"
 #import "MKBVDFUModule.h"
+#import "MKBVNetworkService.h"
+#import "MKBVUserLoginManager.h"
 #import "CBPeripheral+MKBVAdd.h"
 #import "MKBVCentralManager.h"
 #import "MKBVInterface+MKBVConfig.h"

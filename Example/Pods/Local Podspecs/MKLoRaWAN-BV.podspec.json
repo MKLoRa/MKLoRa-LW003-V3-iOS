@@ -28,23 +28,15 @@
       "name": "CTMediator",
       "source_files": "MKLoRaWAN-BV/Classes/CTMediator/**",
       "dependencies": {
-        "MKBaseModuleLibrary": [
-
-        ],
-        "CTMediator": [
-
-        ]
+        "MKBaseModuleLibrary": [],
+        "CTMediator": []
       }
     },
     {
       "name": "DatabaseManager",
       "dependencies": {
-        "MKBaseModuleLibrary": [
-
-        ],
-        "FMDB": [
-
-        ]
+        "MKBaseModuleLibrary": [],
+        "FMDB": []
       },
       "subspecs": [
         {
@@ -61,41 +53,29 @@
       "name": "SDK",
       "source_files": "MKLoRaWAN-BV/Classes/SDK/**",
       "dependencies": {
-        "MKBaseBleModule": [
-
-        ]
+        "MKBaseBleModule": []
       }
     },
     {
       "name": "Target",
       "source_files": "MKLoRaWAN-BV/Classes/Target/**",
       "dependencies": {
-        "MKLoRaWAN-BV/Functions": [
-
-        ]
+        "MKLoRaWAN-BV/Functions": []
       }
     },
     {
       "name": "ConnectModule",
       "source_files": "MKLoRaWAN-BV/Classes/ConnectModule/**",
       "dependencies": {
-        "MKLoRaWAN-BV/SDK": [
-
-        ],
-        "MKBaseModuleLibrary": [
-
-        ]
+        "MKLoRaWAN-BV/SDK": [],
+        "MKBaseModuleLibrary": []
       }
     },
     {
       "name": "Expand",
       "dependencies": {
-        "MKBaseModuleLibrary": [
-
-        ],
-        "MKCustomUIModule": [
-
-        ]
+        "MKBaseModuleLibrary": [],
+        "MKCustomUIModule": []
       },
       "subspecs": [
         {
@@ -134,35 +114,25 @@
       ]
     },
     {
+      "name": "LoginManager",
+      "source_files": "MKLoRaWAN-BV/Classes/LoginManager/**",
+      "dependencies": {
+        "MKIotCloudManager": []
+      }
+    },
+    {
       "name": "Functions",
       "dependencies": {
-        "MKLoRaWAN-BV/SDK": [
-
-        ],
-        "MKLoRaWAN-BV/DatabaseManager": [
-
-        ],
-        "MKLoRaWAN-BV/CTMediator": [
-
-        ],
-        "MKLoRaWAN-BV/ConnectModule": [
-
-        ],
-        "MKLoRaWAN-BV/Expand": [
-
-        ],
-        "MKBaseModuleLibrary": [
-
-        ],
-        "MKCustomUIModule": [
-
-        ],
-        "HHTransition": [
-
-        ],
-        "MLInputDodger": [
-
-        ],
+        "MKLoRaWAN-BV/SDK": [],
+        "MKLoRaWAN-BV/DatabaseManager": [],
+        "MKLoRaWAN-BV/CTMediator": [],
+        "MKLoRaWAN-BV/ConnectModule": [],
+        "MKLoRaWAN-BV/Expand": [],
+        "MKLoRaWAN-BV/LoginManager": [],
+        "MKBaseModuleLibrary": [],
+        "MKCustomUIModule": [],
+        "HHTransition": [],
+        "MLInputDodger": [],
         "iOSDFULibrary": [
           "4.13.0"
         ]
@@ -188,9 +158,7 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/BeaconContentPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/BeaconContentPage/Model": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/BeaconContentPage/Model": []
               }
             },
             {
@@ -206,18 +174,10 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/BleGatewaySettingsPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/BleGatewaySettingsPage/Model": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/ScanReportPage/Controller": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage/Controller": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/PayloadContentPage/Controller": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/BleGatewaySettingsPage/Model": [],
+                "MKLoRaWAN-BV/Functions/ScanReportPage/Controller": [],
+                "MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage/Controller": [],
+                "MKLoRaWAN-BV/Functions/PayloadContentPage/Controller": []
               }
             },
             {
@@ -233,12 +193,8 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/BleSettingsPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/BleSettingsPage/Model": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/BleSettingsPage/View": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/BleSettingsPage/Model": [],
+                "MKLoRaWAN-BV/Functions/BleSettingsPage/View": []
               }
             },
             {
@@ -258,9 +214,7 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/BXPAccContentPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/BXPAccContentPage/Model": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/BXPAccContentPage/Model": []
               }
             },
             {
@@ -276,9 +230,7 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/BXPBeaconContentPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/BXPBeaconContentPage/Model": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/BXPBeaconContentPage/Model": []
               }
             },
             {
@@ -294,9 +246,7 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/BXPButtonContentPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/BXPButtonContentPage/Model": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/BXPButtonContentPage/Model": []
               }
             },
             {
@@ -312,9 +262,7 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/BXPInfoContentPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/BXPInfoContentPage/Model": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/BXPInfoContentPage/Model": []
               }
             },
             {
@@ -330,9 +278,7 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/BXPTagContentPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/BXPTagContentPage/Model": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/BXPTagContentPage/Model": []
               }
             },
             {
@@ -348,9 +294,7 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/BXPTHContentPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/BXPTHContentPage/Model": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/BXPTHContentPage/Model": []
               }
             },
             {
@@ -366,9 +310,7 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/DebuggerPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/DebuggerPage/View": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/DebuggerPage/View": []
               }
             },
             {
@@ -384,18 +326,10 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/DeviceInfoPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/DeviceInfoPage/Model": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/UpdatePage/Controller": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/SelftestPage/Controller": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/DebuggerPage/Controller": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/DeviceInfoPage/Model": [],
+                "MKLoRaWAN-BV/Functions/UpdatePage/Controller": [],
+                "MKLoRaWAN-BV/Functions/SelftestPage/Controller": [],
+                "MKLoRaWAN-BV/Functions/DebuggerPage/Controller": []
               }
             },
             {
@@ -411,18 +345,10 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/DeviceSettingsPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/DeviceSettingsPage/Model": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/SynDataPage/Controller": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/IndicatorSettingPage/Controller": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/DeviceInfoPage/Controller": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/DeviceSettingsPage/Model": [],
+                "MKLoRaWAN-BV/Functions/SynDataPage/Controller": [],
+                "MKLoRaWAN-BV/Functions/IndicatorSettingPage/Controller": [],
+                "MKLoRaWAN-BV/Functions/DeviceInfoPage/Controller": []
               }
             },
             {
@@ -441,9 +367,7 @@
                   "name": "Controller",
                   "source_files": "MKLoRaWAN-BV/Classes/Functions/FilterPages/FilterByAdvNamePage/Controller/**",
                   "dependencies": {
-                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByAdvNamePage/Model": [
-
-                    ]
+                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByAdvNamePage/Model": []
                   }
                 },
                 {
@@ -459,12 +383,8 @@
                   "name": "Controller",
                   "source_files": "MKLoRaWAN-BV/Classes/Functions/FilterPages/FilterByBeaconPage/Controller/**",
                   "dependencies": {
-                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Header": [
-
-                    ],
-                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Model": [
-
-                    ]
+                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Header": [],
+                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Model": []
                   }
                 },
                 {
@@ -475,9 +395,7 @@
                   "name": "Model",
                   "source_files": "MKLoRaWAN-BV/Classes/Functions/FilterPages/FilterByBeaconPage/Model/**",
                   "dependencies": {
-                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Header": [
-
-                    ]
+                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Header": []
                   }
                 }
               ]
@@ -489,9 +407,7 @@
                   "name": "Controller",
                   "source_files": "MKLoRaWAN-BV/Classes/Functions/FilterPages/FilterByBXPButtonPage/Controller/**",
                   "dependencies": {
-                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPButtonPage/Model": [
-
-                    ]
+                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPButtonPage/Model": []
                   }
                 },
                 {
@@ -507,9 +423,7 @@
                   "name": "Controller",
                   "source_files": "MKLoRaWAN-BV/Classes/Functions/FilterPages/FilterByBXPTagPage/Controller/**",
                   "dependencies": {
-                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPTagPage/Model": [
-
-                    ]
+                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPTagPage/Model": []
                   }
                 },
                 {
@@ -525,9 +439,7 @@
                   "name": "Controller",
                   "source_files": "MKLoRaWAN-BV/Classes/Functions/FilterPages/FilterByMacPage/Controller/**",
                   "dependencies": {
-                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByMacPage/Model": [
-
-                    ]
+                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByMacPage/Model": []
                   }
                 },
                 {
@@ -543,9 +455,7 @@
                   "name": "Controller",
                   "source_files": "MKLoRaWAN-BV/Classes/Functions/FilterPages/FilterByOtherPage/Controller/**",
                   "dependencies": {
-                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByOtherPage/Model": [
-
-                    ]
+                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByOtherPage/Model": []
                   }
                 },
                 {
@@ -561,30 +471,14 @@
                   "name": "Controller",
                   "source_files": "MKLoRaWAN-BV/Classes/Functions/FilterPages/FilterByRawDataPage/Controller/**",
                   "dependencies": {
-                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByRawDataPage/Model": [
-
-                    ],
-                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Controller": [
-
-                    ],
-                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByUIDPage/Controller": [
-
-                    ],
-                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByURLPage/Controller": [
-
-                    ],
-                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByTLMPage/Controller": [
-
-                    ],
-                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPButtonPage/Controller": [
-
-                    ],
-                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPTagPage/Controller": [
-
-                    ],
-                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByOtherPage/Controller": [
-
-                    ]
+                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByRawDataPage/Model": [],
+                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Controller": [],
+                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByUIDPage/Controller": [],
+                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByURLPage/Controller": [],
+                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByTLMPage/Controller": [],
+                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPButtonPage/Controller": [],
+                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPTagPage/Controller": [],
+                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByOtherPage/Controller": []
                   }
                 },
                 {
@@ -600,9 +494,7 @@
                   "name": "Controller",
                   "source_files": "MKLoRaWAN-BV/Classes/Functions/FilterPages/FilterByTLMPage/Controller/**",
                   "dependencies": {
-                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByTLMPage/Model": [
-
-                    ]
+                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByTLMPage/Model": []
                   }
                 },
                 {
@@ -618,9 +510,7 @@
                   "name": "Controller",
                   "source_files": "MKLoRaWAN-BV/Classes/Functions/FilterPages/FilterByUIDPage/Controller/**",
                   "dependencies": {
-                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByUIDPage/Model": [
-
-                    ]
+                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByUIDPage/Model": []
                   }
                 },
                 {
@@ -636,9 +526,7 @@
                   "name": "Controller",
                   "source_files": "MKLoRaWAN-BV/Classes/Functions/FilterPages/FilterByURLPage/Controller/**",
                   "dependencies": {
-                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByURLPage/Model": [
-
-                    ]
+                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByURLPage/Model": []
                   }
                 },
                 {
@@ -654,21 +542,11 @@
                   "name": "Controller",
                   "source_files": "MKLoRaWAN-BV/Classes/Functions/FilterPages/FilterSettingPage/Controller/**",
                   "dependencies": {
-                    "MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage/Model": [
-
-                    ],
-                    "MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage/View": [
-
-                    ],
-                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByMacPage/Controller": [
-
-                    ],
-                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByAdvNamePage/Controller": [
-
-                    ],
-                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByRawDataPage/Controller": [
-
-                    ]
+                    "MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage/Model": [],
+                    "MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage/View": [],
+                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByMacPage/Controller": [],
+                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByAdvNamePage/Controller": [],
+                    "MKLoRaWAN-BV/Functions/FilterPages/FilterByRawDataPage/Controller": []
                   }
                 },
                 {
@@ -690,18 +568,10 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/GeneralPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/GeneralPage/Model": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/BleSettingsPage/Controller": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/THSettingsPage/Controller": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/OnOffSettingsPage/Controller": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/GeneralPage/Model": [],
+                "MKLoRaWAN-BV/Functions/BleSettingsPage/Controller": [],
+                "MKLoRaWAN-BV/Functions/THSettingsPage/Controller": [],
+                "MKLoRaWAN-BV/Functions/OnOffSettingsPage/Controller": []
               }
             },
             {
@@ -717,9 +587,7 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/IndicatorSettingPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/IndicatorSettingPage/Model": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/IndicatorSettingPage/Model": []
               }
             },
             {
@@ -735,15 +603,9 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/LoRaApplicationPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/LoRaApplicationPage/Model": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/MulticaseGroupPage/Controller": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/MessageTypePage/Controller": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/LoRaApplicationPage/Model": [],
+                "MKLoRaWAN-BV/Functions/MulticaseGroupPage/Controller": [],
+                "MKLoRaWAN-BV/Functions/MessageTypePage/Controller": []
               }
             },
             {
@@ -759,15 +621,9 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/LoRaPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/LoRaPage/Model": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/LoRaSettingPage/Controller": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/LoRaApplicationPage/Controller": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/LoRaPage/Model": [],
+                "MKLoRaWAN-BV/Functions/LoRaSettingPage/Controller": [],
+                "MKLoRaWAN-BV/Functions/LoRaApplicationPage/Controller": []
               }
             },
             {
@@ -783,9 +639,7 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/LoRaSettingPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/LoRaSettingPage/Model": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/LoRaSettingPage/Model": []
               }
             },
             {
@@ -801,9 +655,7 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/MessageTypePage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/MessageTypePage/Model": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/MessageTypePage/Model": []
               }
             },
             {
@@ -819,9 +671,7 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/MulticaseGroupPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/MulticaseGroupPage/Model": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/MulticaseGroupPage/Model": []
               }
             },
             {
@@ -837,9 +687,7 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/OnOffSettingsPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/OnOffSettingsPage/Model": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/OnOffSettingsPage/Model": []
               }
             },
             {
@@ -855,12 +703,8 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/OtherTypeContentPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/OtherTypeContentPage/Model": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/OtherTypeContentPage/View": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/OtherTypeContentPage/Model": [],
+                "MKLoRaWAN-BV/Functions/OtherTypeContentPage/View": []
               }
             },
             {
@@ -880,39 +724,17 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/PayloadContentPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/BeaconContentPage/Controller": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/UIDContentPage/Controller": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/URLContentPage/Controller": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/TLMContentPage/Controller": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/BXPBeaconContentPage/Controller": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/BXPInfoContentPage/Controller": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/BXPAccContentPage/Controller": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/BXPTHContentPage/Controller": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/BXPButtonContentPage/Controller": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/BXPTagContentPage/Controller": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/OtherTypeContentPage/Controller": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/BeaconContentPage/Controller": [],
+                "MKLoRaWAN-BV/Functions/UIDContentPage/Controller": [],
+                "MKLoRaWAN-BV/Functions/URLContentPage/Controller": [],
+                "MKLoRaWAN-BV/Functions/TLMContentPage/Controller": [],
+                "MKLoRaWAN-BV/Functions/BXPBeaconContentPage/Controller": [],
+                "MKLoRaWAN-BV/Functions/BXPInfoContentPage/Controller": [],
+                "MKLoRaWAN-BV/Functions/BXPAccContentPage/Controller": [],
+                "MKLoRaWAN-BV/Functions/BXPTHContentPage/Controller": [],
+                "MKLoRaWAN-BV/Functions/BXPButtonContentPage/Controller": [],
+                "MKLoRaWAN-BV/Functions/BXPTagContentPage/Controller": [],
+                "MKLoRaWAN-BV/Functions/OtherTypeContentPage/Controller": []
               }
             }
           ]
@@ -924,9 +746,7 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/PeriodicImmediatelyPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/PeriodicImmediatelyPage/Model": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/PeriodicImmediatelyPage/Model": []
               }
             },
             {
@@ -942,9 +762,7 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/PeriodicScanPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/PeriodicScanPage/Model": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/PeriodicScanPage/Model": []
               }
             },
             {
@@ -960,21 +778,15 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/PeriodicTimingPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/PeriodicTimingPage/Model": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/ScanTimePointModel": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/PeriodicTimingPage/Model": [],
+                "MKLoRaWAN-BV/Functions/ScanTimePointModel": []
               }
             },
             {
               "name": "Model",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/PeriodicTimingPage/Model/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/ScanTimePointModel": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/ScanTimePointModel": []
               }
             }
           ]
@@ -986,9 +798,7 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/ScanAlwaysPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/ScanAlwaysPage/Model": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/ScanAlwaysPage/Model": []
               }
             },
             {
@@ -1004,15 +814,9 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/ScanPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/ScanPage/Model": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/ScanPage/View": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/TabBarPage/Controller": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/ScanPage/Model": [],
+                "MKLoRaWAN-BV/Functions/ScanPage/View": [],
+                "MKLoRaWAN-BV/Functions/TabBarPage/Controller": []
               }
             },
             {
@@ -1023,9 +827,7 @@
               "name": "View",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/ScanPage/View/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/ScanPage/Model": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/ScanPage/Model": []
               }
             }
           ]
@@ -1037,30 +839,14 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/ScanReportPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/ScanReportPage/Model": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/TimingImmediatelyPage/Controller": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/PeriodicImmediatelyPage/Controller": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/ScanAlwaysPage/Controller": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/PeriodicScanPage/Controller": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/ScanTimingPage/Controller": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/TimingReportPage/Controller": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/PeriodicTimingPage/Controller": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/ScanReportPage/Model": [],
+                "MKLoRaWAN-BV/Functions/TimingImmediatelyPage/Controller": [],
+                "MKLoRaWAN-BV/Functions/PeriodicImmediatelyPage/Controller": [],
+                "MKLoRaWAN-BV/Functions/ScanAlwaysPage/Controller": [],
+                "MKLoRaWAN-BV/Functions/PeriodicScanPage/Controller": [],
+                "MKLoRaWAN-BV/Functions/ScanTimingPage/Controller": [],
+                "MKLoRaWAN-BV/Functions/TimingReportPage/Controller": [],
+                "MKLoRaWAN-BV/Functions/PeriodicTimingPage/Controller": []
               }
             },
             {
@@ -1076,21 +862,15 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/ScanTimingPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/ScanTimingPage/Model": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/ScanTimePointModel": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/ScanTimingPage/Model": [],
+                "MKLoRaWAN-BV/Functions/ScanTimePointModel": []
               }
             },
             {
               "name": "Model",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/ScanTimingPage/Model/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/ScanTimePointModel": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/ScanTimePointModel": []
               }
             }
           ]
@@ -1102,12 +882,8 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/SelftestPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/SelftestPage/View": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/SelftestPage/Model": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/SelftestPage/View": [],
+                "MKLoRaWAN-BV/Functions/SelftestPage/Model": []
               }
             },
             {
@@ -1127,9 +903,7 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/SynDataPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/SynDataPage/View": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/SynDataPage/View": []
               }
             },
             {
@@ -1145,18 +919,10 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/TabBarPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/LoRaPage/Controller": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/BleGatewaySettingsPage/Controller": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/GeneralPage/Controller": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/DeviceSettingsPage/Controller": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/LoRaPage/Controller": [],
+                "MKLoRaWAN-BV/Functions/BleGatewaySettingsPage/Controller": [],
+                "MKLoRaWAN-BV/Functions/GeneralPage/Controller": [],
+                "MKLoRaWAN-BV/Functions/DeviceSettingsPage/Controller": []
               }
             }
           ]
@@ -1168,9 +934,7 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/THSettingsPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/THSettingsPage/Model": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/THSettingsPage/Model": []
               }
             },
             {
@@ -1186,21 +950,15 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/TimingImmediatelyPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/TimingImmediatelyPage/Model": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/ScanTimePointModel": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/TimingImmediatelyPage/Model": [],
+                "MKLoRaWAN-BV/Functions/ScanTimePointModel": []
               }
             },
             {
               "name": "Model",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/TimingImmediatelyPage/Model/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/ScanTimePointModel": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/ScanTimePointModel": []
               }
             }
           ]
@@ -1212,21 +970,15 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/TimingReportPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/TimingReportPage/Model": [
-
-                ],
-                "MKLoRaWAN-BV/Functions/ScanTimePointModel": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/TimingReportPage/Model": [],
+                "MKLoRaWAN-BV/Functions/ScanTimePointModel": []
               }
             },
             {
               "name": "Model",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/TimingReportPage/Model/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/ScanTimePointModel": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/ScanTimePointModel": []
               }
             }
           ]
@@ -1238,9 +990,7 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/TLMContentPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/TLMContentPage/Model": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/TLMContentPage/Model": []
               }
             },
             {
@@ -1256,9 +1006,7 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/UIDContentPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/UIDContentPage/Model": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/UIDContentPage/Model": []
               }
             },
             {
@@ -1274,9 +1022,7 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/UpdatePage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/UpdatePage/Model": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/UpdatePage/Model": []
               }
             },
             {
@@ -1292,9 +1038,7 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/URLContentPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/URLContentPage/Model": [
-
-                ]
+                "MKLoRaWAN-BV/Functions/URLContentPage/Model": []
               }
             },
             {

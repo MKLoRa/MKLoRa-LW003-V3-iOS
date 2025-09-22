@@ -9,7 +9,7 @@ PODS:
   - HHTransition (3.1.2)
   - iOSDFULibrary (4.13.0):
     - ZIPFoundation (= 0.9.11)
-  - libxlsxwriter (1.2.1)
+  - libxlsxwriter (1.2.2)
   - Masonry (1.1.0)
   - MJRefresh (3.7.9)
   - MKBaseBleModule (1.1.4)
@@ -53,430 +53,399 @@ PODS:
     - libxlsxwriter
     - MKBaseModuleLibrary/Defines
     - SSZipArchive
-  - MKCustomUIModule (2.1.4):
+  - MKCustomUIModule (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - MKCustomUIModule/Cell (= 2.1.4)
-    - MKCustomUIModule/Controller (= 2.1.4)
-    - MKCustomUIModule/MQTTServerView (= 2.1.4)
-    - MKCustomUIModule/UIAdopter (= 2.1.4)
-    - MKCustomUIModule/View (= 2.1.4)
-    - SVProgressHUD
-  - MKCustomUIModule/Cell (2.1.4):
+    - MKCustomUIModule/Cell (= 2.1.7)
+    - MKCustomUIModule/Controller (= 2.1.7)
+    - MKCustomUIModule/MQTTServerView (= 2.1.7)
+    - MKCustomUIModule/UIAdopter (= 2.1.7)
+    - MKCustomUIModule/View (= 2.1.7)
+  - MKCustomUIModule/Cell (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - MKCustomUIModule/Cell/FilterCell (= 2.1.4)
-    - MKCustomUIModule/Cell/LoRaCell (= 2.1.4)
-    - MKCustomUIModule/Cell/NormalCell (= 2.1.4)
-    - SVProgressHUD
-  - MKCustomUIModule/Cell/FilterCell (2.1.4):
+    - MKCustomUIModule/Cell/FilterCell (= 2.1.7)
+    - MKCustomUIModule/Cell/LoRaCell (= 2.1.7)
+    - MKCustomUIModule/Cell/NormalCell (= 2.1.7)
+  - MKCustomUIModule/Cell/FilterCell (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - MKCustomUIModule/Cell/FilterCell/FilterBeaconCell (= 2.1.4)
-    - MKCustomUIModule/Cell/FilterCell/FilterByRawDataCell (= 2.1.4)
-    - MKCustomUIModule/Cell/FilterCell/FilterEditSectionHeaderView (= 2.1.4)
-    - MKCustomUIModule/Cell/FilterCell/FilterNormalTextFieldCell (= 2.1.4)
-    - SVProgressHUD
-  - MKCustomUIModule/Cell/FilterCell/FilterBeaconCell (2.1.4):
-    - CircleProgressBar
-    - Masonry
-    - MJRefresh
-    - MKBaseModuleLibrary
-    - MKCustomUIModule/UIAdopter
-    - MKCustomUIModule/View/MKTextField
-    - SVProgressHUD
-  - MKCustomUIModule/Cell/FilterCell/FilterByRawDataCell (2.1.4):
-    - CircleProgressBar
-    - Masonry
-    - MJRefresh
-    - MKBaseModuleLibrary
-    - MKCustomUIModule/View/MKTextField
-    - SVProgressHUD
-  - MKCustomUIModule/Cell/FilterCell/FilterEditSectionHeaderView (2.1.4):
-    - CircleProgressBar
-    - Masonry
-    - MJRefresh
-    - MKBaseModuleLibrary
-    - SVProgressHUD
-  - MKCustomUIModule/Cell/FilterCell/FilterNormalTextFieldCell (2.1.4):
+    - MKCustomUIModule/Cell/FilterCell/FilterBeaconCell (= 2.1.7)
+    - MKCustomUIModule/Cell/FilterCell/FilterByRawDataCell (= 2.1.7)
+    - MKCustomUIModule/Cell/FilterCell/FilterEditSectionHeaderView (= 2.1.7)
+    - MKCustomUIModule/Cell/FilterCell/FilterNormalTextFieldCell (= 2.1.7)
+  - MKCustomUIModule/Cell/FilterCell/FilterBeaconCell (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/UIAdopter
     - MKCustomUIModule/View/MKTextField
-    - SVProgressHUD
-  - MKCustomUIModule/Cell/LoRaCell (2.1.4):
+  - MKCustomUIModule/Cell/FilterCell/FilterByRawDataCell (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - MKCustomUIModule/Cell/LoRaCell/MKAdvancedSettingCell (= 2.1.4)
-    - MKCustomUIModule/Cell/LoRaCell/MKFilterConditionCell (= 2.1.4)
-    - MKCustomUIModule/Cell/LoRaCell/MKFilterDataCell (= 2.1.4)
-    - MKCustomUIModule/Cell/LoRaCell/MKFilterRawAdvDataCell (= 2.1.4)
-    - MKCustomUIModule/Cell/LoRaCell/MKLoRaSettingCHCell (= 2.1.4)
-    - MKCustomUIModule/Cell/LoRaCell/MKMeasureTxPowerCell (= 2.1.4)
-    - MKCustomUIModule/Cell/LoRaCell/MKMixedChoiceCell (= 2.1.4)
-    - MKCustomUIModule/Cell/LoRaCell/MKRawAdvDataOperationCell (= 2.1.4)
-    - SVProgressHUD
-  - MKCustomUIModule/Cell/LoRaCell/MKAdvancedSettingCell (2.1.4):
+    - MKCustomUIModule/View/MKTextField
+  - MKCustomUIModule/Cell/FilterCell/FilterEditSectionHeaderView (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - SVProgressHUD
-  - MKCustomUIModule/Cell/LoRaCell/MKFilterConditionCell (2.1.4):
+  - MKCustomUIModule/Cell/FilterCell/FilterNormalTextFieldCell (2.1.7):
+    - CircleProgressBar
+    - Masonry
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/UIAdopter
+    - MKCustomUIModule/View/MKTextField
+  - MKCustomUIModule/Cell/LoRaCell (2.1.7):
+    - CircleProgressBar
+    - Masonry
+    - MJRefresh
+    - MKBaseModuleLibrary
+    - MKCustomUIModule/Cell/LoRaCell/MKAdvancedSettingCell (= 2.1.7)
+    - MKCustomUIModule/Cell/LoRaCell/MKFilterConditionCell (= 2.1.7)
+    - MKCustomUIModule/Cell/LoRaCell/MKFilterDataCell (= 2.1.7)
+    - MKCustomUIModule/Cell/LoRaCell/MKFilterRawAdvDataCell (= 2.1.7)
+    - MKCustomUIModule/Cell/LoRaCell/MKLoRaSettingCHCell (= 2.1.7)
+    - MKCustomUIModule/Cell/LoRaCell/MKMeasureTxPowerCell (= 2.1.7)
+    - MKCustomUIModule/Cell/LoRaCell/MKMixedChoiceCell (= 2.1.7)
+    - MKCustomUIModule/Cell/LoRaCell/MKRawAdvDataOperationCell (= 2.1.7)
+  - MKCustomUIModule/Cell/LoRaCell/MKAdvancedSettingCell (2.1.7):
+    - CircleProgressBar
+    - Masonry
+    - MJRefresh
+    - MKBaseModuleLibrary
+  - MKCustomUIModule/Cell/LoRaCell/MKFilterConditionCell (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/UIAdopter
     - MKCustomUIModule/View/MKPickerView
-    - SVProgressHUD
-  - MKCustomUIModule/Cell/LoRaCell/MKFilterDataCell (2.1.4):
+  - MKCustomUIModule/Cell/LoRaCell/MKFilterDataCell (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/View/MKTextField
-    - SVProgressHUD
-  - MKCustomUIModule/Cell/LoRaCell/MKFilterRawAdvDataCell (2.1.4):
+  - MKCustomUIModule/Cell/LoRaCell/MKFilterRawAdvDataCell (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/View/MKTextField
-    - SVProgressHUD
-  - MKCustomUIModule/Cell/LoRaCell/MKLoRaSettingCHCell (2.1.4):
+  - MKCustomUIModule/Cell/LoRaCell/MKLoRaSettingCHCell (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/View/MKPickerView
-    - SVProgressHUD
-  - MKCustomUIModule/Cell/LoRaCell/MKMeasureTxPowerCell (2.1.4):
+  - MKCustomUIModule/Cell/LoRaCell/MKMeasureTxPowerCell (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/UIAdopter
     - MKCustomUIModule/View/MKSlider
-    - SVProgressHUD
-  - MKCustomUIModule/Cell/LoRaCell/MKMixedChoiceCell (2.1.4):
+  - MKCustomUIModule/Cell/LoRaCell/MKMixedChoiceCell (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - SVProgressHUD
-  - MKCustomUIModule/Cell/LoRaCell/MKRawAdvDataOperationCell (2.1.4):
+  - MKCustomUIModule/Cell/LoRaCell/MKRawAdvDataOperationCell (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - SVProgressHUD
-  - MKCustomUIModule/Cell/NormalCell (2.1.4):
+  - MKCustomUIModule/Cell/NormalCell (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - MKCustomUIModule/Cell/NormalCell/MKButtonMsgCell (= 2.1.4)
-    - MKCustomUIModule/Cell/NormalCell/MKDeviceInfoCell (= 2.1.4)
-    - MKCustomUIModule/Cell/NormalCell/MKDeviceInfoDfuCell (= 2.1.4)
-    - MKCustomUIModule/Cell/NormalCell/MKNormalSliderCell (= 2.1.4)
-    - MKCustomUIModule/Cell/NormalCell/MKNormalTextCell (= 2.1.4)
-    - MKCustomUIModule/Cell/NormalCell/MKSettingTextCell (= 2.1.4)
-    - MKCustomUIModule/Cell/NormalCell/MKTextButtonCell (= 2.1.4)
-    - MKCustomUIModule/Cell/NormalCell/MKTextFieldCell (= 2.1.4)
-    - MKCustomUIModule/Cell/NormalCell/MKTextSwitchCell (= 2.1.4)
-    - SVProgressHUD
-  - MKCustomUIModule/Cell/NormalCell/MKButtonMsgCell (2.1.4):
+    - MKCustomUIModule/Cell/NormalCell/MKButtonMsgCell (= 2.1.7)
+    - MKCustomUIModule/Cell/NormalCell/MKDeviceInfoCell (= 2.1.7)
+    - MKCustomUIModule/Cell/NormalCell/MKDeviceInfoDfuCell (= 2.1.7)
+    - MKCustomUIModule/Cell/NormalCell/MKNormalSliderCell (= 2.1.7)
+    - MKCustomUIModule/Cell/NormalCell/MKNormalTextCell (= 2.1.7)
+    - MKCustomUIModule/Cell/NormalCell/MKSettingTextCell (= 2.1.7)
+    - MKCustomUIModule/Cell/NormalCell/MKTextButtonCell (= 2.1.7)
+    - MKCustomUIModule/Cell/NormalCell/MKTextFieldCell (= 2.1.7)
+    - MKCustomUIModule/Cell/NormalCell/MKTextSwitchCell (= 2.1.7)
+  - MKCustomUIModule/Cell/NormalCell/MKButtonMsgCell (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - SVProgressHUD
-  - MKCustomUIModule/Cell/NormalCell/MKDeviceInfoCell (2.1.4):
+  - MKCustomUIModule/Cell/NormalCell/MKDeviceInfoCell (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - SVProgressHUD
-  - MKCustomUIModule/Cell/NormalCell/MKDeviceInfoDfuCell (2.1.4):
+  - MKCustomUIModule/Cell/NormalCell/MKDeviceInfoDfuCell (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/UIAdopter
-    - SVProgressHUD
-  - MKCustomUIModule/Cell/NormalCell/MKNormalSliderCell (2.1.4):
+  - MKCustomUIModule/Cell/NormalCell/MKNormalSliderCell (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/UIAdopter
     - MKCustomUIModule/View/MKSlider
-    - SVProgressHUD
-  - MKCustomUIModule/Cell/NormalCell/MKNormalTextCell (2.1.4):
+  - MKCustomUIModule/Cell/NormalCell/MKNormalTextCell (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - SVProgressHUD
-  - MKCustomUIModule/Cell/NormalCell/MKSettingTextCell (2.1.4):
+  - MKCustomUIModule/Cell/NormalCell/MKSettingTextCell (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - SVProgressHUD
-  - MKCustomUIModule/Cell/NormalCell/MKTextButtonCell (2.1.4):
+  - MKCustomUIModule/Cell/NormalCell/MKTextButtonCell (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/View/MKPickerView
-    - SVProgressHUD
-  - MKCustomUIModule/Cell/NormalCell/MKTextFieldCell (2.1.4):
+  - MKCustomUIModule/Cell/NormalCell/MKTextFieldCell (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/View/MKTextField
-    - SVProgressHUD
-  - MKCustomUIModule/Cell/NormalCell/MKTextSwitchCell (2.1.4):
+  - MKCustomUIModule/Cell/NormalCell/MKTextSwitchCell (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - SVProgressHUD
-  - MKCustomUIModule/Controller (2.1.4):
+  - MKCustomUIModule/Controller (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - MKCustomUIModule/Controller/CASelectPage (= 2.1.4)
-    - MKCustomUIModule/Controller/MKAboutPage (= 2.1.4)
-    - MKCustomUIModule/Controller/MKAlertController (= 2.1.4)
-    - MKCustomUIModule/Controller/MKTrackerAboutPage (= 2.1.4)
-    - SVProgressHUD
-  - MKCustomUIModule/Controller/CASelectPage (2.1.4):
+    - MKCustomUIModule/Controller/CASelectPage (= 2.1.7)
+    - MKCustomUIModule/Controller/MKAboutPage (= 2.1.7)
+    - MKCustomUIModule/Controller/MKAlertController (= 2.1.7)
+    - MKCustomUIModule/Controller/MKTrackerAboutPage (= 2.1.7)
+  - MKCustomUIModule/Controller/CASelectPage (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - MKCustomUIModule/Controller/CASelectPage/Controller (= 2.1.4)
-    - SVProgressHUD
-  - MKCustomUIModule/Controller/CASelectPage/Controller (2.1.4):
+    - MKCustomUIModule/Controller/CASelectPage/Controller (= 2.1.7)
+  - MKCustomUIModule/Controller/CASelectPage/Controller (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/Cell/NormalCell/MKNormalTextCell
-    - SVProgressHUD
-  - MKCustomUIModule/Controller/MKAboutPage (2.1.4):
+  - MKCustomUIModule/Controller/MKAboutPage (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - MKCustomUIModule/Controller/MKAboutPage/Controller (= 2.1.4)
-    - MKCustomUIModule/Controller/MKAboutPage/Model (= 2.1.4)
-    - MKCustomUIModule/Controller/MKAboutPage/View (= 2.1.4)
-    - SVProgressHUD
-  - MKCustomUIModule/Controller/MKAboutPage/Controller (2.1.4):
+    - MKCustomUIModule/Controller/MKAboutPage/Controller (= 2.1.7)
+    - MKCustomUIModule/Controller/MKAboutPage/Model (= 2.1.7)
+    - MKCustomUIModule/Controller/MKAboutPage/View (= 2.1.7)
+  - MKCustomUIModule/Controller/MKAboutPage/Controller (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/Controller/MKAboutPage/Model
     - MKCustomUIModule/Controller/MKAboutPage/View
-    - SVProgressHUD
-  - MKCustomUIModule/Controller/MKAboutPage/Model (2.1.4):
+  - MKCustomUIModule/Controller/MKAboutPage/Model (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - SVProgressHUD
-  - MKCustomUIModule/Controller/MKAboutPage/View (2.1.4):
+  - MKCustomUIModule/Controller/MKAboutPage/View (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/Controller/MKAboutPage/Model
-    - SVProgressHUD
-  - MKCustomUIModule/Controller/MKAlertController (2.1.4):
+  - MKCustomUIModule/Controller/MKAlertController (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - SVProgressHUD
-  - MKCustomUIModule/Controller/MKTrackerAboutPage (2.1.4):
+  - MKCustomUIModule/Controller/MKTrackerAboutPage (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - MKCustomUIModule/Controller/MKTrackerAboutPage/Controller (= 2.1.4)
-    - SVProgressHUD
-  - MKCustomUIModule/Controller/MKTrackerAboutPage/Controller (2.1.4):
+    - MKCustomUIModule/Controller/MKTrackerAboutPage/Controller (= 2.1.7)
+  - MKCustomUIModule/Controller/MKTrackerAboutPage/Controller (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - SVProgressHUD
-  - MKCustomUIModule/MQTTServerView (2.1.4):
+  - MKCustomUIModule/MQTTServerView (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - MKCustomUIModule/MQTTServerView/GeneralParams (= 2.1.4)
-    - MKCustomUIModule/MQTTServerView/SSL (= 2.1.4)
-    - MKCustomUIModule/MQTTServerView/UserCredentials (= 2.1.4)
-    - SVProgressHUD
-  - MKCustomUIModule/MQTTServerView/GeneralParams (2.1.4):
+    - MKCustomUIModule/MQTTServerView/GeneralParams (= 2.1.7)
+    - MKCustomUIModule/MQTTServerView/SSL (= 2.1.7)
+    - MKCustomUIModule/MQTTServerView/UserCredentials (= 2.1.7)
+  - MKCustomUIModule/MQTTServerView/GeneralParams (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/View/MKTextField
-    - SVProgressHUD
-  - MKCustomUIModule/MQTTServerView/SSL (2.1.4):
+  - MKCustomUIModule/MQTTServerView/SSL (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - SVProgressHUD
-  - MKCustomUIModule/MQTTServerView/UserCredentials (2.1.4):
+  - MKCustomUIModule/MQTTServerView/UserCredentials (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/View/MKTextField
-    - SVProgressHUD
-  - MKCustomUIModule/UIAdopter (2.1.4):
+  - MKCustomUIModule/UIAdopter (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/View
-    - SVProgressHUD
-  - MKCustomUIModule/View (2.1.4):
+  - MKCustomUIModule/View (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - MKCustomUIModule/View/HaveRefreshView (= 2.1.4)
-    - MKCustomUIModule/View/MKAlertView (= 2.1.4)
-    - MKCustomUIModule/View/MKHexKeyBoard (= 2.1.4)
-    - MKCustomUIModule/View/MKHudManager (= 2.1.4)
-    - MKCustomUIModule/View/MKPageControl (= 2.1.4)
-    - MKCustomUIModule/View/MKPickerView (= 2.1.4)
-    - MKCustomUIModule/View/MKProgressView (= 2.1.4)
-    - MKCustomUIModule/View/MKSearchButton (= 2.1.4)
-    - MKCustomUIModule/View/MKSearchConditionsView (= 2.1.4)
-    - MKCustomUIModule/View/MKSlider (= 2.1.4)
-    - MKCustomUIModule/View/MKTableSectionHeader (= 2.1.4)
-    - MKCustomUIModule/View/MKTextField (= 2.1.4)
-    - MKCustomUIModule/View/NirKxMenu (= 2.1.4)
-    - MKCustomUIModule/View/WifiAlertView (= 2.1.4)
-    - SVProgressHUD
-  - MKCustomUIModule/View/HaveRefreshView (2.1.4):
+    - MKCustomUIModule/View/HaveRefreshView (= 2.1.7)
+    - MKCustomUIModule/View/MKAlertView (= 2.1.7)
+    - MKCustomUIModule/View/MKHexKeyBoard (= 2.1.7)
+    - MKCustomUIModule/View/MKHudManager (= 2.1.7)
+    - MKCustomUIModule/View/MKPageControl (= 2.1.7)
+    - MKCustomUIModule/View/MKPickerView (= 2.1.7)
+    - MKCustomUIModule/View/MKProgressView (= 2.1.7)
+    - MKCustomUIModule/View/MKSearchButton (= 2.1.7)
+    - MKCustomUIModule/View/MKSearchConditionsView (= 2.1.7)
+    - MKCustomUIModule/View/MKSlider (= 2.1.7)
+    - MKCustomUIModule/View/MKTableSectionHeader (= 2.1.7)
+    - MKCustomUIModule/View/MKTextField (= 2.1.7)
+    - MKCustomUIModule/View/NirKxMenu (= 2.1.7)
+    - MKCustomUIModule/View/WifiAlertView (= 2.1.7)
+  - MKCustomUIModule/View/HaveRefreshView (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - SVProgressHUD
-  - MKCustomUIModule/View/MKAlertView (2.1.4):
+  - MKCustomUIModule/View/MKAlertView (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/View/MKTextField
-    - SVProgressHUD
-  - MKCustomUIModule/View/MKHexKeyBoard (2.1.4):
+  - MKCustomUIModule/View/MKHexKeyBoard (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - SVProgressHUD
-  - MKCustomUIModule/View/MKHudManager (2.1.4):
+  - MKCustomUIModule/View/MKHudManager (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - SVProgressHUD
-  - MKCustomUIModule/View/MKPageControl (2.1.4):
+  - MKCustomUIModule/View/MKPageControl (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - SVProgressHUD
-  - MKCustomUIModule/View/MKPickerView (2.1.4):
+  - MKCustomUIModule/View/MKPickerView (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - SVProgressHUD
-  - MKCustomUIModule/View/MKProgressView (2.1.4):
+  - MKCustomUIModule/View/MKProgressView (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - SVProgressHUD
-  - MKCustomUIModule/View/MKSearchButton (2.1.4):
+  - MKCustomUIModule/View/MKSearchButton (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - SVProgressHUD
-  - MKCustomUIModule/View/MKSearchConditionsView (2.1.4):
+  - MKCustomUIModule/View/MKSearchConditionsView (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/View/MKSlider
-    - SVProgressHUD
-  - MKCustomUIModule/View/MKSlider (2.1.4):
+  - MKCustomUIModule/View/MKSlider (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - SVProgressHUD
-  - MKCustomUIModule/View/MKTableSectionHeader (2.1.4):
+  - MKCustomUIModule/View/MKTableSectionHeader (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - SVProgressHUD
-  - MKCustomUIModule/View/MKTextField (2.1.4):
+  - MKCustomUIModule/View/MKTextField (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - SVProgressHUD
-  - MKCustomUIModule/View/NirKxMenu (2.1.4):
+  - MKCustomUIModule/View/NirKxMenu (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
-    - SVProgressHUD
-  - MKCustomUIModule/View/WifiAlertView (2.1.4):
+  - MKCustomUIModule/View/WifiAlertView (2.1.7):
     - CircleProgressBar
     - Masonry
     - MJRefresh
     - MKBaseModuleLibrary
     - MKCustomUIModule/View/MKTextField
-    - SVProgressHUD
+  - MKIotCloudManager (0.0.12):
+    - MKIotCloudManager/SDK (= 0.0.12)
+    - MKIotCloudManager/View (= 0.0.12)
+  - MKIotCloudManager/SDK (0.0.12):
+    - MKIotCloudManager/SDK/Config (= 0.0.12)
+    - MKIotCloudManager/SDK/MKNetwork (= 0.0.12)
+    - MKIotCloudManager/SDK/NetworkService (= 0.0.12)
+  - MKIotCloudManager/SDK/Config (0.0.12)
+  - MKIotCloudManager/SDK/MKNetwork (0.0.12):
+    - MKBaseModuleLibrary
+    - MKIotCloudManager/SDK/Config
+  - MKIotCloudManager/SDK/NetworkService (0.0.12):
+    - MKBaseModuleLibrary
+    - MKIotCloudManager/SDK/Config
+    - MKIotCloudManager/SDK/MKNetwork
+  - MKIotCloudManager/View (0.0.12):
+    - MKIotCloudManager/View/AccountLoginAlertView (= 0.0.12)
+    - MKIotCloudManager/View/ExitAccountAlertView (= 0.0.12)
+  - MKIotCloudManager/View/AccountLoginAlertView (0.0.12):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+  - MKIotCloudManager/View/ExitAccountAlertView (0.0.12):
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
   - MKLoRaWAN-BV (0.0.2):
     - MKLoRaWAN-BV/ConnectModule (= 0.0.2)
     - MKLoRaWAN-BV/CTMediator (= 0.0.2)
     - MKLoRaWAN-BV/DatabaseManager (= 0.0.2)
     - MKLoRaWAN-BV/Expand (= 0.0.2)
     - MKLoRaWAN-BV/Functions (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager (= 0.0.2)
     - MKLoRaWAN-BV/SDK (= 0.0.2)
     - MKLoRaWAN-BV/Target (= 0.0.2)
   - MKLoRaWAN-BV/ConnectModule (0.0.2):
@@ -582,6 +551,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/UIDContentPage (= 0.0.2)
     - MKLoRaWAN-BV/Functions/UpdatePage (= 0.0.2)
     - MKLoRaWAN-BV/Functions/URLContentPage (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/AboutPage (0.0.2):
@@ -594,6 +564,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/AboutPage/Controller (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/AboutPage/Controller (0.0.2):
@@ -605,6 +576,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/BeaconContentPage (0.0.2):
@@ -618,6 +590,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/BeaconContentPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/BeaconContentPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/BeaconContentPage/Controller (0.0.2):
@@ -630,6 +603,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/BeaconContentPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/BeaconContentPage/Model (0.0.2):
@@ -641,6 +615,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/BleGatewaySettingsPage (0.0.2):
@@ -654,6 +629,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/BleGatewaySettingsPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/BleGatewaySettingsPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/BleGatewaySettingsPage/Controller (0.0.2):
@@ -669,6 +645,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage/Controller
     - MKLoRaWAN-BV/Functions/PayloadContentPage/Controller
     - MKLoRaWAN-BV/Functions/ScanReportPage/Controller
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/BleGatewaySettingsPage/Model (0.0.2):
@@ -680,6 +657,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/BleSettingsPage (0.0.2):
@@ -694,6 +672,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/BleSettingsPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/BleSettingsPage/Model (= 0.0.2)
     - MKLoRaWAN-BV/Functions/BleSettingsPage/View (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/BleSettingsPage/Controller (0.0.2):
@@ -707,6 +686,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/BleSettingsPage/Model
     - MKLoRaWAN-BV/Functions/BleSettingsPage/View
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/BleSettingsPage/Model (0.0.2):
@@ -718,6 +698,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/BleSettingsPage/View (0.0.2):
@@ -729,6 +710,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/BXPAccContentPage (0.0.2):
@@ -742,6 +724,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/BXPAccContentPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/BXPAccContentPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/BXPAccContentPage/Controller (0.0.2):
@@ -754,6 +737,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/BXPAccContentPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/BXPAccContentPage/Model (0.0.2):
@@ -765,6 +749,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/BXPBeaconContentPage (0.0.2):
@@ -778,6 +763,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/BXPBeaconContentPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/BXPBeaconContentPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/BXPBeaconContentPage/Controller (0.0.2):
@@ -790,6 +776,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/BXPBeaconContentPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/BXPBeaconContentPage/Model (0.0.2):
@@ -801,6 +788,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/BXPButtonContentPage (0.0.2):
@@ -814,6 +802,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/BXPButtonContentPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/BXPButtonContentPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/BXPButtonContentPage/Controller (0.0.2):
@@ -826,6 +815,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/BXPButtonContentPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/BXPButtonContentPage/Model (0.0.2):
@@ -837,6 +827,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/BXPInfoContentPage (0.0.2):
@@ -850,6 +841,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/BXPInfoContentPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/BXPInfoContentPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/BXPInfoContentPage/Controller (0.0.2):
@@ -862,6 +854,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/BXPInfoContentPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/BXPInfoContentPage/Model (0.0.2):
@@ -873,6 +866,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/BXPTagContentPage (0.0.2):
@@ -886,6 +880,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/BXPTagContentPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/BXPTagContentPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/BXPTagContentPage/Controller (0.0.2):
@@ -898,6 +893,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/BXPTagContentPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/BXPTagContentPage/Model (0.0.2):
@@ -909,6 +905,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/BXPTHContentPage (0.0.2):
@@ -922,6 +919,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/BXPTHContentPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/BXPTHContentPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/BXPTHContentPage/Controller (0.0.2):
@@ -934,6 +932,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/BXPTHContentPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/BXPTHContentPage/Model (0.0.2):
@@ -945,6 +944,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/DebuggerPage (0.0.2):
@@ -958,6 +958,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/DebuggerPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/DebuggerPage/View (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/DebuggerPage/Controller (0.0.2):
@@ -970,6 +971,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/DebuggerPage/View
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/DebuggerPage/View (0.0.2):
@@ -981,6 +983,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/DeviceInfoPage (0.0.2):
@@ -994,6 +997,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/DeviceInfoPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/DeviceInfoPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/DeviceInfoPage/Controller (0.0.2):
@@ -1009,6 +1013,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/DeviceInfoPage/Model
     - MKLoRaWAN-BV/Functions/SelftestPage/Controller
     - MKLoRaWAN-BV/Functions/UpdatePage/Controller
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/DeviceInfoPage/Model (0.0.2):
@@ -1020,6 +1025,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/DeviceSettingsPage (0.0.2):
@@ -1033,6 +1039,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/DeviceSettingsPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/DeviceSettingsPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/DeviceSettingsPage/Controller (0.0.2):
@@ -1048,6 +1055,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/DeviceSettingsPage/Model
     - MKLoRaWAN-BV/Functions/IndicatorSettingPage/Controller
     - MKLoRaWAN-BV/Functions/SynDataPage/Controller
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/DeviceSettingsPage/Model (0.0.2):
@@ -1059,6 +1067,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages (0.0.2):
@@ -1081,6 +1090,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByUIDPage (= 0.0.2)
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByURLPage (= 0.0.2)
     - MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByAdvNamePage (0.0.2):
@@ -1094,6 +1104,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByAdvNamePage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByAdvNamePage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByAdvNamePage/Controller (0.0.2):
@@ -1106,6 +1117,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByAdvNamePage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByAdvNamePage/Model (0.0.2):
@@ -1117,6 +1129,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage (0.0.2):
@@ -1131,6 +1144,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Header (= 0.0.2)
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Controller (0.0.2):
@@ -1144,6 +1158,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Header
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Header (0.0.2):
@@ -1155,6 +1170,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Model (0.0.2):
@@ -1167,6 +1183,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByBeaconPage/Header
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPButtonPage (0.0.2):
@@ -1180,6 +1197,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPButtonPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPButtonPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPButtonPage/Controller (0.0.2):
@@ -1192,6 +1210,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPButtonPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPButtonPage/Model (0.0.2):
@@ -1203,6 +1222,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPTagPage (0.0.2):
@@ -1216,6 +1236,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPTagPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPTagPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPTagPage/Controller (0.0.2):
@@ -1228,6 +1249,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPTagPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByBXPTagPage/Model (0.0.2):
@@ -1239,6 +1261,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByMacPage (0.0.2):
@@ -1252,6 +1275,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByMacPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByMacPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByMacPage/Controller (0.0.2):
@@ -1264,6 +1288,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByMacPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByMacPage/Model (0.0.2):
@@ -1275,6 +1300,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByOtherPage (0.0.2):
@@ -1288,6 +1314,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByOtherPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByOtherPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByOtherPage/Controller (0.0.2):
@@ -1300,6 +1327,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByOtherPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByOtherPage/Model (0.0.2):
@@ -1311,6 +1339,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByRawDataPage (0.0.2):
@@ -1324,6 +1353,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByRawDataPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByRawDataPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByRawDataPage/Controller (0.0.2):
@@ -1343,6 +1373,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByTLMPage/Controller
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByUIDPage/Controller
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByURLPage/Controller
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByRawDataPage/Model (0.0.2):
@@ -1354,6 +1385,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByTLMPage (0.0.2):
@@ -1367,6 +1399,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByTLMPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByTLMPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByTLMPage/Controller (0.0.2):
@@ -1379,6 +1412,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByTLMPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByTLMPage/Model (0.0.2):
@@ -1390,6 +1424,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByUIDPage (0.0.2):
@@ -1403,6 +1438,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByUIDPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByUIDPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByUIDPage/Controller (0.0.2):
@@ -1415,6 +1451,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByUIDPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByUIDPage/Model (0.0.2):
@@ -1426,6 +1463,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByURLPage (0.0.2):
@@ -1439,6 +1477,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByURLPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByURLPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByURLPage/Controller (0.0.2):
@@ -1451,6 +1490,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByURLPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterByURLPage/Model (0.0.2):
@@ -1462,6 +1502,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage (0.0.2):
@@ -1476,6 +1517,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage/Model (= 0.0.2)
     - MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage/View (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage/Controller (0.0.2):
@@ -1492,6 +1534,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/FilterPages/FilterByRawDataPage/Controller
     - MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage/Model
     - MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage/View
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage/Model (0.0.2):
@@ -1503,6 +1546,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/FilterPages/FilterSettingPage/View (0.0.2):
@@ -1514,6 +1558,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/GeneralPage (0.0.2):
@@ -1527,6 +1572,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/GeneralPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/GeneralPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/GeneralPage/Controller (0.0.2):
@@ -1542,6 +1588,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/GeneralPage/Model
     - MKLoRaWAN-BV/Functions/OnOffSettingsPage/Controller
     - MKLoRaWAN-BV/Functions/THSettingsPage/Controller
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/GeneralPage/Model (0.0.2):
@@ -1553,6 +1600,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/IndicatorSettingPage (0.0.2):
@@ -1566,6 +1614,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/IndicatorSettingPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/IndicatorSettingPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/IndicatorSettingPage/Controller (0.0.2):
@@ -1578,6 +1627,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/IndicatorSettingPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/IndicatorSettingPage/Model (0.0.2):
@@ -1589,6 +1639,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/LoRaApplicationPage (0.0.2):
@@ -1602,6 +1653,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/LoRaApplicationPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/LoRaApplicationPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/LoRaApplicationPage/Controller (0.0.2):
@@ -1616,6 +1668,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/LoRaApplicationPage/Model
     - MKLoRaWAN-BV/Functions/MessageTypePage/Controller
     - MKLoRaWAN-BV/Functions/MulticaseGroupPage/Controller
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/LoRaApplicationPage/Model (0.0.2):
@@ -1627,6 +1680,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/LoRaPage (0.0.2):
@@ -1640,6 +1694,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/LoRaPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/LoRaPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/LoRaPage/Controller (0.0.2):
@@ -1654,6 +1709,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/LoRaApplicationPage/Controller
     - MKLoRaWAN-BV/Functions/LoRaPage/Model
     - MKLoRaWAN-BV/Functions/LoRaSettingPage/Controller
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/LoRaPage/Model (0.0.2):
@@ -1665,6 +1721,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/LoRaSettingPage (0.0.2):
@@ -1678,6 +1735,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/LoRaSettingPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/LoRaSettingPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/LoRaSettingPage/Controller (0.0.2):
@@ -1690,6 +1748,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/LoRaSettingPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/LoRaSettingPage/Model (0.0.2):
@@ -1701,6 +1760,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/MessageTypePage (0.0.2):
@@ -1714,6 +1774,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/MessageTypePage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/MessageTypePage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/MessageTypePage/Controller (0.0.2):
@@ -1726,6 +1787,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/MessageTypePage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/MessageTypePage/Model (0.0.2):
@@ -1737,6 +1799,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/MulticaseGroupPage (0.0.2):
@@ -1750,6 +1813,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/MulticaseGroupPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/MulticaseGroupPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/MulticaseGroupPage/Controller (0.0.2):
@@ -1762,6 +1826,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/MulticaseGroupPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/MulticaseGroupPage/Model (0.0.2):
@@ -1773,6 +1838,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/OnOffSettingsPage (0.0.2):
@@ -1786,6 +1852,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/OnOffSettingsPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/OnOffSettingsPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/OnOffSettingsPage/Controller (0.0.2):
@@ -1798,6 +1865,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/OnOffSettingsPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/OnOffSettingsPage/Model (0.0.2):
@@ -1809,6 +1877,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/OtherTypeContentPage (0.0.2):
@@ -1823,6 +1892,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/OtherTypeContentPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/OtherTypeContentPage/Model (= 0.0.2)
     - MKLoRaWAN-BV/Functions/OtherTypeContentPage/View (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/OtherTypeContentPage/Controller (0.0.2):
@@ -1836,6 +1906,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/OtherTypeContentPage/Model
     - MKLoRaWAN-BV/Functions/OtherTypeContentPage/View
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/OtherTypeContentPage/Model (0.0.2):
@@ -1847,6 +1918,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/OtherTypeContentPage/View (0.0.2):
@@ -1858,6 +1930,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/PayloadContentPage (0.0.2):
@@ -1870,6 +1943,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/PayloadContentPage/Controller (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/PayloadContentPage/Controller (0.0.2):
@@ -1892,6 +1966,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/TLMContentPage/Controller
     - MKLoRaWAN-BV/Functions/UIDContentPage/Controller
     - MKLoRaWAN-BV/Functions/URLContentPage/Controller
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/PeriodicImmediatelyPage (0.0.2):
@@ -1905,6 +1980,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/PeriodicImmediatelyPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/PeriodicImmediatelyPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/PeriodicImmediatelyPage/Controller (0.0.2):
@@ -1917,6 +1993,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/PeriodicImmediatelyPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/PeriodicImmediatelyPage/Model (0.0.2):
@@ -1928,6 +2005,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/PeriodicScanPage (0.0.2):
@@ -1941,6 +2019,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/PeriodicScanPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/PeriodicScanPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/PeriodicScanPage/Controller (0.0.2):
@@ -1953,6 +2032,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/PeriodicScanPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/PeriodicScanPage/Model (0.0.2):
@@ -1964,6 +2044,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/PeriodicTimingPage (0.0.2):
@@ -1977,6 +2058,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/PeriodicTimingPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/PeriodicTimingPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/PeriodicTimingPage/Controller (0.0.2):
@@ -1990,6 +2072,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/PeriodicTimingPage/Model
     - MKLoRaWAN-BV/Functions/ScanTimePointModel
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/PeriodicTimingPage/Model (0.0.2):
@@ -2002,6 +2085,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/ScanTimePointModel
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/ScanAlwaysPage (0.0.2):
@@ -2015,6 +2099,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/ScanAlwaysPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/ScanAlwaysPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/ScanAlwaysPage/Controller (0.0.2):
@@ -2027,6 +2112,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/ScanAlwaysPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/ScanAlwaysPage/Model (0.0.2):
@@ -2038,6 +2124,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/ScanPage (0.0.2):
@@ -2052,6 +2139,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/ScanPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/ScanPage/Model (= 0.0.2)
     - MKLoRaWAN-BV/Functions/ScanPage/View (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/ScanPage/Controller (0.0.2):
@@ -2066,6 +2154,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/ScanPage/Model
     - MKLoRaWAN-BV/Functions/ScanPage/View
     - MKLoRaWAN-BV/Functions/TabBarPage/Controller
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/ScanPage/Model (0.0.2):
@@ -2077,6 +2166,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/ScanPage/View (0.0.2):
@@ -2089,6 +2179,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/ScanPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/ScanReportPage (0.0.2):
@@ -2102,6 +2193,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/ScanReportPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/ScanReportPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/ScanReportPage/Controller (0.0.2):
@@ -2121,6 +2213,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/ScanTimingPage/Controller
     - MKLoRaWAN-BV/Functions/TimingImmediatelyPage/Controller
     - MKLoRaWAN-BV/Functions/TimingReportPage/Controller
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/ScanReportPage/Model (0.0.2):
@@ -2132,6 +2225,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/ScanTimePointModel (0.0.2):
@@ -2143,6 +2237,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/ScanTimingPage (0.0.2):
@@ -2156,6 +2251,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/ScanTimingPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/ScanTimingPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/ScanTimingPage/Controller (0.0.2):
@@ -2169,6 +2265,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/ScanTimePointModel
     - MKLoRaWAN-BV/Functions/ScanTimingPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/ScanTimingPage/Model (0.0.2):
@@ -2181,6 +2278,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/ScanTimePointModel
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/SelftestPage (0.0.2):
@@ -2195,6 +2293,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/SelftestPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/SelftestPage/Model (= 0.0.2)
     - MKLoRaWAN-BV/Functions/SelftestPage/View (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/SelftestPage/Controller (0.0.2):
@@ -2208,6 +2307,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/SelftestPage/Model
     - MKLoRaWAN-BV/Functions/SelftestPage/View
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/SelftestPage/Model (0.0.2):
@@ -2219,6 +2319,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/SelftestPage/View (0.0.2):
@@ -2230,6 +2331,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/SynDataPage (0.0.2):
@@ -2243,6 +2345,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/SynDataPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/SynDataPage/View (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/SynDataPage/Controller (0.0.2):
@@ -2255,6 +2358,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/SynDataPage/View
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/SynDataPage/View (0.0.2):
@@ -2266,6 +2370,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/TabBarPage (0.0.2):
@@ -2278,6 +2383,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/TabBarPage/Controller (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/TabBarPage/Controller (0.0.2):
@@ -2293,6 +2399,7 @@ PODS:
     - MKLoRaWAN-BV/Functions/DeviceSettingsPage/Controller
     - MKLoRaWAN-BV/Functions/GeneralPage/Controller
     - MKLoRaWAN-BV/Functions/LoRaPage/Controller
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/THSettingsPage (0.0.2):
@@ -2306,6 +2413,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/THSettingsPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/THSettingsPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/THSettingsPage/Controller (0.0.2):
@@ -2318,6 +2426,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/THSettingsPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/THSettingsPage/Model (0.0.2):
@@ -2329,6 +2438,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/TimingImmediatelyPage (0.0.2):
@@ -2342,6 +2452,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/TimingImmediatelyPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/TimingImmediatelyPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/TimingImmediatelyPage/Controller (0.0.2):
@@ -2355,6 +2466,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/ScanTimePointModel
     - MKLoRaWAN-BV/Functions/TimingImmediatelyPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/TimingImmediatelyPage/Model (0.0.2):
@@ -2367,6 +2479,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/ScanTimePointModel
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/TimingReportPage (0.0.2):
@@ -2380,6 +2493,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/TimingReportPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/TimingReportPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/TimingReportPage/Controller (0.0.2):
@@ -2393,6 +2507,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/ScanTimePointModel
     - MKLoRaWAN-BV/Functions/TimingReportPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/TimingReportPage/Model (0.0.2):
@@ -2405,6 +2520,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/ScanTimePointModel
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/TLMContentPage (0.0.2):
@@ -2418,6 +2534,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/TLMContentPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/TLMContentPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/TLMContentPage/Controller (0.0.2):
@@ -2430,6 +2547,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/TLMContentPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/TLMContentPage/Model (0.0.2):
@@ -2441,6 +2559,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/UIDContentPage (0.0.2):
@@ -2454,6 +2573,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/UIDContentPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/UIDContentPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/UIDContentPage/Controller (0.0.2):
@@ -2466,6 +2586,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/UIDContentPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/UIDContentPage/Model (0.0.2):
@@ -2477,6 +2598,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/UpdatePage (0.0.2):
@@ -2490,6 +2612,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/UpdatePage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/UpdatePage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/UpdatePage/Controller (0.0.2):
@@ -2502,6 +2625,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/UpdatePage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/UpdatePage/Model (0.0.2):
@@ -2513,6 +2637,7 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/URLContentPage (0.0.2):
@@ -2526,6 +2651,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/URLContentPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/URLContentPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/URLContentPage/Controller (0.0.2):
@@ -2538,6 +2664,7 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/URLContentPage/Model
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/URLContentPage/Model (0.0.2):
@@ -2549,17 +2676,17 @@ PODS:
     - MKLoRaWAN-BV/CTMediator
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
+  - MKLoRaWAN-BV/LoginManager (0.0.2):
+    - MKIotCloudManager
   - MKLoRaWAN-BV/SDK (0.0.2):
     - MKBaseBleModule
   - MKLoRaWAN-BV/Target (0.0.2):
     - MKLoRaWAN-BV/Functions
   - MLInputDodger (1.5.2)
   - SSZipArchive (2.4.3)
-  - SVProgressHUD (2.3.1):
-    - SVProgressHUD/Core (= 2.3.1)
-  - SVProgressHUD/Core (2.3.1)
   - Toast (4.1.1)
   - WRNavigationBar (1.4.0)
   - ZIPFoundation (0.9.11)
@@ -2568,7 +2695,7 @@ DEPENDENCIES:
   - MKLoRaWAN-BV (from `../`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - CircleProgressBar
     - CTMediator
     - FMDB
@@ -2580,9 +2707,9 @@ SPEC REPOS:
     - MKBaseBleModule
     - MKBaseModuleLibrary
     - MKCustomUIModule
+    - MKIotCloudManager
     - MLInputDodger
     - SSZipArchive
-    - SVProgressHUD
     - Toast
     - WRNavigationBar
     - ZIPFoundation
@@ -2597,20 +2724,20 @@ SPEC CHECKSUMS:
   FMDB: 728731dd336af3936ce00f91d9d8495f5718a0e6
   HHTransition: 67c1bc632c4838e4eb28f07b9be1b927362ae07d
   iOSDFULibrary: ae1bcb1cb921e6e3ff551755f6fdff1b77e07e15
-  libxlsxwriter: 58b8454485fa0936de8a8bce3df7bac9dce7730e
+  libxlsxwriter: 0241005dff3350f50f28c245fa98535410acf077
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: ff9e531227924c84ce459338414550a05d2aea78
   MKBaseBleModule: 15aa067c4e408a473e025b1a768ebce00a7e5949
   MKBaseModuleLibrary: 2b79bcae588c755588413fbb643b510253271b23
-  MKCustomUIModule: 2b04f12e951fc5905074d0d7baead6ee1c24abc8
-  MKLoRaWAN-BV: 803476e9318571f0c3abbf29ba34fac69ce14cc9
+  MKCustomUIModule: 8426eba1d3178b06d92741d31da32502920fb8fa
+  MKIotCloudManager: 241bd4bb7fae48e6b031c69a40c26637aabe67be
+  MKLoRaWAN-BV: 8dd97bca5cf4a19249462ac77f71888e0f65b4e9
   MLInputDodger: 79a0e420a80d0d3bba122bf2639603cc76609ba8
   SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
-  SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
   Toast: 1f5ea13423a1e6674c4abdac5be53587ae481c4e
   WRNavigationBar: 10bfdf96addf14d640d07c2ef08a029c18d8af10
   ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
 
-PODFILE CHECKSUM: 49725412316f59826f8758e45fc52a431e4db5bb
+PODFILE CHECKSUM: fc99075cb73cc5b97c3a4244d6edc29ed7f6398f
 
-COCOAPODS: 1.16.1
+COCOAPODS: 1.16.2

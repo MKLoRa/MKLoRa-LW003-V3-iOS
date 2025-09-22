@@ -2,15 +2,29 @@
 //  MKBVLoRaSettingModel.h
 //  MKLoRaWAN-BV_Example
 //
-//  Created by aa on 2022/3/16.
-//  Copyright © 2022 aadyx2007@163.com. All rights reserved.
+//  Created by aa on 2023/6/29.
+//  Copyright © 2023 aadyx2007@163.com. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
+@interface MKBVLoRaSettingConfigModel : NSObject
+
+@property (nonatomic, assign)BOOL supportClassType;
+
+@property (nonatomic, assign)BOOL supportMessageType;
+
+@property (nonatomic, assign)BOOL supportServerPlatform;
+
+@property (nonatomic, assign)BOOL supportMaxRetransmissionTimes;
+
+@end
+
 @interface MKBVLoRaSettingModel : NSObject
+
+@property (nonatomic, strong, readonly)MKBVLoRaSettingConfigModel *configModel;
 
 //1:ABP,2:OTAA
 @property (nonatomic, assign)NSInteger modem;
@@ -34,6 +48,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy)NSString *appSKey;
 
 /**
+ 对于platform=0
  0:AS923
  1:AU915
  2:CN470
@@ -44,11 +59,28 @@ NS_ASSUME_NONNULL_BEGIN
  7:IN865
  8:US915
  9:RU864
+ 
+ 对于platform=1
+ 0:AS923,
+ 1:EU868
+ 2:US915 FSB1
+ 3:US915 FSB2
+ 4:AU915 FSB1
+ 5:AU915 FSB2
  */
 @property (nonatomic, assign)NSInteger region;
 
-/// 0:Class A，1:Class C
+/// 0:非确认帧，1:确认帧
+@property (nonatomic, assign)NSInteger messageType;
+
+/// 0：classA,1:classC,
 @property (nonatomic, assign)NSInteger classType;
+
+/// 0:Third Party NS    1:MOKO IoT DM
+@property (nonatomic, assign)NSInteger platform;
+
+/// Gateway ID
+@property (nonatomic, copy)NSString *gatewayEUI;
 
 /// 底部是否需要高级选项
 @property (nonatomic, assign)BOOL needAdvanceSetting;
@@ -94,6 +126,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 用户主动选择了region，底部高级设置需要按照需求设置为默认值
 - (void)configAdvanceSettingDefaultParams;
 
+- (NSInteger)currentRegion;
+
+- (NSArray <NSString *>*)RegionList;
 - (NSArray <NSString *>*)CHLValueList;
 - (NSArray <NSString *>*)CHHValueList;
 - (NSArray <NSString *>*)DRValueList;

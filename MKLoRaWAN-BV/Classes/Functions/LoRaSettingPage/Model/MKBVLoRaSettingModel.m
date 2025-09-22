@@ -2,8 +2,8 @@
 //  MKBVLoRaSettingModel.m
 //  MKLoRaWAN-BV_Example
 //
-//  Created by aa on 2022/3/16.
-//  Copyright © 2022 aadyx2007@163.com. All rights reserved.
+//  Created by aa on 2023/6/29.
+//  Copyright © 2023 aadyx2007@163.com. All rights reserved.
 //
 
 #import "MKBVLoRaSettingModel.h"
@@ -13,11 +13,27 @@
 #import "MKBVInterface.h"
 #import "MKBVInterface+MKBVConfig.h"
 
+@implementation MKBVLoRaSettingConfigModel
+
+- (instancetype)init {
+    if (self = [super init]) {
+        _supportClassType = NO;
+        _supportMessageType = NO;
+        _supportServerPlatform = YES;
+        _supportMaxRetransmissionTimes = NO;
+    }
+    return self;
+}
+
+@end
+
 @interface MKBVLoRaSettingModel ()
 
 @property (nonatomic, strong)dispatch_queue_t readQueue;
 
 @property (nonatomic, strong)dispatch_semaphore_t semaphore;
+
+@property (nonatomic, strong)MKBVLoRaSettingConfigModel *configModel;
 
 @end
 
@@ -54,7 +70,7 @@
             return;
         }
         if (![self readDevAddr]) {
-            [self operationFailedBlockWithMsg:@"Read Region Error" block:failedBlock];
+            [self operationFailedBlockWithMsg:@"Read DevAddr Error" block:failedBlock];
             return;
         }
         if (![self readAppSkey]) {
@@ -65,11 +81,6 @@
             [self operationFailedBlockWithMsg:@"Read NWKSKEY Error" block:failedBlock];
             return;
         }
-        if (![self readClassType]) {
-            [self operationFailedBlockWithMsg:@"Read Class Type Error" block:failedBlock];
-            return;
-        }
-        
         if (!self.needAdvanceSetting) {
             moko_dispatch_main_safe(^{
                 if (sucBlock) {
@@ -78,7 +89,7 @@
             });
             return;
         }
-        if (self.region == 1 || self.region == 2 || self.region == 8) {
+        if (self.currentRegion == 1 || self.currentRegion == 2 || self.currentRegion == 8) {
             //US915、AU915、CN470
             if (![self readCHValue]) {
                 [self operationFailedBlockWithMsg:@"Read CH Error" block:failedBlock];
@@ -86,19 +97,19 @@
             }
         }
         //Duty-cycle
-        if (self.region == 3 || self.region == 4 || self.region == 5 || self.region == 9) {
+        if (self.currentRegion == 3 || self.currentRegion == 4 || self.currentRegion == 5 || self.currentRegion == 9) {
             //EU868,CN779, EU433,RU864
             if (![self readDutyStatus]) {
                 [self operationFailedBlockWithMsg:@"Read Duty Cycle Error" block:failedBlock];
                 return;
             }
         }
-        if (self.region == 2 || self.region == 3
-            || self.region == 4 || self.region == 5 || self.region == 6
-            || self.region == 7 || self.region == 9) {
+        if (self.currentRegion == 2 || self.currentRegion == 3
+            || self.currentRegion == 4 || self.currentRegion == 5 || self.currentRegion == 6
+            || self.currentRegion == 7 || self.currentRegion == 9) {
             //CN470, CN779, EU433, EU868,KR920, IN865, RU864
             if (![self readJoinValue]) {
-                [self operationFailedBlockWithMsg:@"Read Dr For Join Error" block:failedBlock];
+                [self operationFailedBlockWithMsg:@"Read DR For Join Error" block:failedBlock];
                 return;
             }
         }
@@ -166,10 +177,6 @@
             }
         }
         
-        if (![self configClassType]) {
-            [self operationFailedBlockWithMsg:@"Config Message Type Error" block:failedBlock];
-            return;
-        }
         if (!self.needAdvanceSetting) {
             if (![self restartDevice]) {
                 [self operationFailedBlockWithMsg:@"Connect network error" block:failedBlock];
@@ -182,14 +189,14 @@
             });
             return;
         }
-        if (self.region == 1 || self.region == 2 || self.region == 8) {
+        if (self.currentRegion == 1 || self.currentRegion == 2 || self.currentRegion == 8) {
             //AU915、CN470、US915
             if (![self configCHValue]) {
                 [self operationFailedBlockWithMsg:@"Config CH Error" block:failedBlock];
                 return;
             }
         }
-        if (self.region == 3 || self.region == 4 || self.region == 5 || self.region == 9) {
+        if (self.currentRegion == 3 || self.currentRegion == 4 || self.currentRegion == 5 || self.currentRegion == 9) {
             //EU868,CN779, EU433,RU864
             if (![self configDutyStatus]) {
                 [self operationFailedBlockWithMsg:@"Config Duty Cycle Error" block:failedBlock];
@@ -197,9 +204,9 @@
             }
         }
         
-        if (self.region == 2 || self.region == 3
-            || self.region == 4 || self.region == 5 || self.region == 6
-            || self.region == 7 || self.region == 9) {
+        if (self.currentRegion == 2 || self.currentRegion == 3
+            || self.currentRegion == 4 || self.currentRegion == 5 || self.currentRegion == 6
+            || self.currentRegion == 7 || self.currentRegion == 9) {
             //CN470, CN779, EU433, EU868,KR920, IN865, RU864
             if (![self configJoinValue]) {
                 [self operationFailedBlockWithMsg:@"Config DR For Join Error" block:failedBlock];
@@ -233,26 +240,44 @@
 #pragma mark - public method
 - (void)configAdvanceSettingDefaultParams {
     self.CHL = 0;
-    if (self.region == 1 || self.region == 8) {
-        //AU915、US915
-        self.CHL = 8;
-        self.CHH = 15;
-    }else if (self.region == 2) {
-        //CN470
-        self.CHH = 7;
-    }else if (self.region == 3 || self.region == 4 || self.region == 5 || self.region == 6 || self.region == 7) {
-        //CN779、EU433、EU868、KR920、IN865
-        self.CHH = 2;
-    }else if (self.region == 0 || self.region == 9) {
-        //RU864、AS923
-        self.CHH = 1;
+    
+    if (self.platform == 0) {
+        //Third Party NS
+        if (self.currentRegion == 1 || self.currentRegion == 8) {
+            //AU915、US915
+            self.CHL = 8;
+            self.CHH = 15;
+        }else if (self.currentRegion == 2) {
+            //CN470
+            self.CHH = 7;
+        }else if (self.currentRegion == 3 || self.currentRegion == 4 || self.currentRegion == 5 || self.currentRegion == 6 || self.currentRegion == 7) {
+            //CN779、EU433、EU868、KR920、IN865
+            self.CHH = 2;
+        }else if (self.currentRegion == 0 || self.currentRegion == 9) {
+            //RU864、AS923
+            self.CHH = 1;
+        }
+    }else {
+        //
+        if (self.region == 2 || self.region == 4) {
+            //MOKO IoT DM
+            //US915 FSB1、AU915 FSB1
+            self.CHL = 0;
+            self.CHH = 7;
+        }else if (self.region == 3 || self.region == 5) {
+            //MOKO IoT DM
+            //US915 FSB2、AU915 FSB2
+            self.CHL = 8;
+            self.CHH = 15;
+        }
     }
+    
     self.dutyIsOn = NO;
     
     self.adrIsOn = YES;
-//    self.retransmission = 0;
-    if (self.region == 0 || self.region == 1) {
-        //AS923、AU915
+    if (self.currentRegion == 0 || self.currentRegion == 1 || self.currentRegion == 10
+        || self.currentRegion == 11 || self.currentRegion == 12 || self.currentRegion == 13) {
+        //AS923、AU915、AS923-1、AS923-2、AS923-3、AS923-4
         self.join = 2;
         self.DRL = 2;
         self.DRH = 2;
@@ -263,16 +288,47 @@
     }
 }
 
+- (NSInteger)currentRegion {
+    if (self.platform == 0) {
+        //Third Party NS
+        return self.region;
+    }
+    //MOKO IoT DM
+    if (self.region == 0) {
+        //AS923
+        return 0;
+    }
+    if (self.region == 1) {
+        //EU868
+        return 5;
+    }
+    if (self.region == 2 || self.region == 3) {
+        //US915 FSB1、US915 FSB2
+        return 8;
+    }
+    //AU915 FSB1、AU915 FSB2
+    return 1;
+}
+
+- (NSArray <NSString *>*)RegionList {
+    if (self.platform == 0) {
+        //Third Party NS
+        return @[@"AS923",@"AU915",@"CN470",@"CN779",@"EU433",@"EU868",@"KR920",@"IN865",@"US915",@"RU864"];
+    }
+    //MOKO IoT DM
+    return @[@"AS923",@"EU868",@"US915 FSB1",@"US915 FSB2",@"AU915 FSB1",@"AU915 FSB2"];
+}
+
 - (NSArray <NSString *>*)CHLValueList {
-    if (self.region == 1 || self.region == 8) {
+    if (self.currentRegion == 1 || self.currentRegion == 8) {
         //AU915、US915
         return [self loadStringWithMaxValue:63];
     }
-    if (self.region == 2) {
+    if (self.currentRegion == 2) {
         //CN470
         return [self loadStringWithMaxValue:95];
     }
-    if (self.region == 3 || self.region == 4 || self.region == 5 || self.region == 6 || self.region == 7) {
+    if (self.currentRegion == 3 || self.currentRegion == 4 || self.currentRegion == 5 || self.currentRegion == 6 || self.currentRegion == 7) {
         //CN779、EU433、EU868、KR920、IN865
         return [self loadStringWithMaxValue:2];
     }
@@ -286,15 +342,16 @@
 }
 
 - (NSArray <NSString *>*)DRValueList; {
-    if (self.region == 0) {
-        //AS923
+    if (self.currentRegion == 0 || self.currentRegion == 10
+        || self.currentRegion == 11 || self.currentRegion == 12 || self.currentRegion == 13) {
+        //AS923、AS923-1、AS923-2、AS923-3、AS923-4
         return @[@"2",@"3",@"4",@"5"];
     }
-    if (self.region == 1) {
+    if (self.currentRegion == 1) {
         //AU915
         return @[@"2",@"3",@"4",@"5",@"6"];
     }
-    if (self.region == 8) {
+    if (self.currentRegion == 8) {
         //US915
         return [self loadStringWithMaxValue:4];
     }
@@ -359,42 +416,7 @@
 
 - (BOOL)configRegion {
     __block BOOL success = NO;
-    [MKBVInterface bv_configRegion:self.region sucBlock:^{
-        success = YES;
-        dispatch_semaphore_signal(self.semaphore);
-    } failedBlock:^(NSError * _Nonnull error) {
-        dispatch_semaphore_signal(self.semaphore);
-    }];
-    dispatch_semaphore_wait(self.semaphore, DISPATCH_TIME_FOREVER);
-    return success;
-}
-
-
-- (BOOL)readClassType {
-    __block BOOL success = NO;
-    [MKBVInterface bv_readLorawanClassTypeWithSucBlock:^(id  _Nonnull returnData) {
-        success = YES;
-        NSInteger classType = [returnData[@"result"][@"classType"] integerValue];
-        if (classType == 2) {
-            self.classType = 1;
-        }else {
-            self.classType = 0;
-        }
-        dispatch_semaphore_signal(self.semaphore);
-    } failedBlock:^(NSError * _Nonnull error) {
-        dispatch_semaphore_signal(self.semaphore);
-    }];
-    dispatch_semaphore_wait(self.semaphore, DISPATCH_TIME_FOREVER);
-    return success;
-}
-
-- (BOOL)configClassType {
-    __block BOOL success = NO;
-    mk_bv_loraWanClassType classType = mk_bv_loraWanClassTypeA;
-    if (self.classType == 1) {
-        classType = mk_bv_loraWanClassTypeC;
-    }
-    [MKBVInterface bv_configClassType:classType sucBlock:^{
+    [MKBVInterface bv_configRegion:self.currentRegion sucBlock:^{
         success = YES;
         dispatch_semaphore_signal(self.semaphore);
     } failedBlock:^(NSError * _Nonnull error) {
@@ -758,28 +780,24 @@
             return NO;
         }
     }
-    if (self.region < 0 || self.region > 9) {
+    if (self.currentRegion < 0 || self.currentRegion > 13) {
         return NO;
     }
 
-    if (self.classType != 0 && self.classType != 1) {
-        return NO;
-    }
     if (self.needAdvanceSetting) {
-        if (self.region == 1 || self.region == 2 || self.region == 8) {
+        if (self.currentRegion == 1 || self.currentRegion == 2 || self.currentRegion == 8) {
             if (self.CHL < 0 || self.CHL > 95 || self.CHH < self.CHL || self.CHH > 95) {
                 return NO;
             }
         }
-        if (self.region == 0 || self.region == 2 || self.region == 3
-            || self.region == 4 || self.region == 5 || self.region == 6 || self.region == 7) {
-            //CN470, CN779, EU433, EU868,KR920, IN865, RU864
+        if (self.currentRegion == 0 || self.currentRegion == 2 || self.currentRegion == 3
+            || self.currentRegion == 4 || self.currentRegion == 5 || self.currentRegion == 6 || self.currentRegion == 7
+            || self.currentRegion == 10
+            || self.currentRegion == 11 || self.currentRegion == 12 || self.currentRegion == 13) {
+            //CN470, CN779, EU433, EU868,KR920, IN865, RU864、AS923-1、AS923-2、AS923-3、AS923-4
             if (self.join < 0 || self.join > 5) {
                 return NO;
             }
-        }
-        if (self.retransmission < 0 && self.retransmission > 3) {
-            return NO;
         }
         if (self.DRL < 0 || self.DRL > 6 || self.DRH < self.DRL || self.DRH > 6) {
             return NO;
@@ -807,7 +825,11 @@
         @"6":@"KR920",
         @"7":@"IN865",
         @"8":@"US915",
-        @"9":@"RU864"
+        @"9":@"RU864",
+        @"10":@"AS923-1",
+        @"11":@"AS923-2",
+        @"12":@"AS923-3",
+        @"13":@"AS923-4"
     };
 }
 
@@ -832,6 +854,13 @@
         _readQueue = dispatch_queue_create("loraParamsQueue", DISPATCH_QUEUE_SERIAL);
     }
     return _readQueue;
+}
+
+- (MKBVLoRaSettingConfigModel *)configModel {
+    if (!_configModel) {
+        _configModel = [[MKBVLoRaSettingConfigModel alloc] init];
+    }
+    return _configModel;
 }
 
 @end

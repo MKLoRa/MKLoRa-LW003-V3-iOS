@@ -114,6 +114,12 @@ TODO: Add long description of the pod here.
     ss.dependency 'MKCustomUIModule'
   end
   
+  s.subspec 'LoginManager' do |ss|
+    ss.source_files = 'MKLoRaWAN-BV/Classes/LoginManager/**'
+  
+    ss.dependency 'MKIotCloudManager'
+  end
+  
   s.subspec 'Functions' do |ss|
     
     ss.subspec 'ScanTimePointModel' do |sss|
@@ -892,6 +898,7 @@ TODO: Add long description of the pod here.
     ss.dependency 'MKLoRaWAN-BV/CTMediator'
     ss.dependency 'MKLoRaWAN-BV/ConnectModule'
     ss.dependency 'MKLoRaWAN-BV/Expand'
+    ss.dependency 'MKLoRaWAN-BV/LoginManager'
     
     ss.dependency 'MKBaseModuleLibrary'
     ss.dependency 'MKCustomUIModule'
