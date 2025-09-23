@@ -17,7 +17,7 @@
 
 - (instancetype)init {
     if (self = [super init]) {
-        _supportClassType = NO;
+        _supportClassType = YES;
         _supportMessageType = NO;
         _supportServerPlatform = YES;
         _supportMaxRetransmissionTimes = NO;
@@ -79,6 +79,10 @@
         }
         if (![self readNwkSkey]) {
             [self operationFailedBlockWithMsg:@"Read NWKSKEY Error" block:failedBlock];
+            return;
+        }
+        if (![self readClassType]) {
+            [self operationFailedBlockWithMsg:@"Read Class Type Error" block:failedBlock];
             return;
         }
         if (!self.needAdvanceSetting) {
@@ -175,6 +179,11 @@
                 [self operationFailedBlockWithMsg:@"Config AppKey Error" block:failedBlock];
                 return;
             }
+        }
+        
+        if (![self configClassType]) {
+            [self operationFailedBlockWithMsg:@"Config Message Type Error" block:failedBlock];
+            return;
         }
         
         if (!self.needAdvanceSetting) {
@@ -417,6 +426,40 @@
 - (BOOL)configRegion {
     __block BOOL success = NO;
     [MKBVInterface bv_configRegion:self.currentRegion sucBlock:^{
+        success = YES;
+        dispatch_semaphore_signal(self.semaphore);
+    } failedBlock:^(NSError * _Nonnull error) {
+        dispatch_semaphore_signal(self.semaphore);
+    }];
+    dispatch_semaphore_wait(self.semaphore, DISPATCH_TIME_FOREVER);
+    return success;
+}
+
+- (BOOL)readClassType {
+    __block BOOL success = NO;
+    [MKBVInterface bv_readLorawanClassTypeWithSucBlock:^(id  _Nonnull returnData) {
+        success = YES;
+        NSInteger classType = [returnData[@"result"][@"classType"] integerValue];
+        if (classType == 2) {
+            self.classType = 1;
+        }else {
+            self.classType = 0;
+        }
+        dispatch_semaphore_signal(self.semaphore);
+    } failedBlock:^(NSError * _Nonnull error) {
+        dispatch_semaphore_signal(self.semaphore);
+    }];
+    dispatch_semaphore_wait(self.semaphore, DISPATCH_TIME_FOREVER);
+    return success;
+}
+
+- (BOOL)configClassType {
+    __block BOOL success = NO;
+    mk_bv_loraWanClassType classType = mk_bv_loraWanClassTypeA;
+    if (self.classType == 1) {
+        classType = mk_bv_loraWanClassTypeC;
+    }
+    [MKBVInterface bv_configClassType:classType sucBlock:^{
         success = YES;
         dispatch_semaphore_signal(self.semaphore);
     } failedBlock:^(NSError * _Nonnull error) {

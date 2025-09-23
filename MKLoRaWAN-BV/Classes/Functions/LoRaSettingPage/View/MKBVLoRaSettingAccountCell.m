@@ -1,12 +1,12 @@
 //
-//  MKSBLoRaSettingAccountCell.m
-//  MKLoRaWAN-SB_Example
+//  MKBVLoRaSettingAccountCell.m
+//  MKLoRaWAN-BV_Example
 //
 //  Created by aa on 2025/3/3.
 //  Copyright © 2025 aadyx2007@163.com. All rights reserved.
 //
 
-#import "MKSBLoRaSettingAccountCell.h"
+#import "MKBVLoRaSettingAccountCell.h"
 
 #import "Masonry.h"
 
@@ -14,10 +14,10 @@
 #import "NSString+MKAdd.h"
 #import "UIView+MKAdd.h"
 
-@implementation MKSBLoRaSettingAccountCellModel
+@implementation MKBVLoRaSettingAccountCellModel
 @end
 
-@interface MKSBLoRaSettingAccountCell ()
+@interface MKBVLoRaSettingAccountCell ()
 
 @property (nonatomic, strong)UILabel *msgLabel;
 
@@ -25,12 +25,12 @@
 
 @end
 
-@implementation MKSBLoRaSettingAccountCell
+@implementation MKBVLoRaSettingAccountCell
 
-+ (MKSBLoRaSettingAccountCell *)initCellWithTableView:(UITableView *)tableView {
-    MKSBLoRaSettingAccountCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MKSBLoRaSettingAccountCellIdenty"];
++ (MKBVLoRaSettingAccountCell *)initCellWithTableView:(UITableView *)tableView {
+    MKBVLoRaSettingAccountCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MKBVLoRaSettingAccountCellIdenty"];
     if (!cell) {
-        cell = [[MKSBLoRaSettingAccountCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"MKSBLoRaSettingAccountCellIdenty"];
+        cell = [[MKBVLoRaSettingAccountCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"MKBVLoRaSettingAccountCellIdenty"];
     }
     return cell;
 }
@@ -61,16 +61,16 @@
 
 #pragma mark - event method
 - (void)logoutBtnPressed {
-    if ([self.delegate respondsToSelector:@selector(sb_loRaSettingAccountCell_logoutBtnPressed)]) {
-        [self.delegate sb_loRaSettingAccountCell_logoutBtnPressed];
+    if ([self.delegate respondsToSelector:@selector(bv_loRaSettingAccountCell_logoutBtnPressed)]) {
+        [self.delegate bv_loRaSettingAccountCell_logoutBtnPressed];
     }
 }
 
 #pragma mark - setter
-- (void)setDataModel:(MKSBLoRaSettingAccountCellModel *)dataModel {
+- (void)setDataModel:(MKBVLoRaSettingAccountCellModel *)dataModel {
     _dataModel = nil;
     _dataModel = dataModel;
-    if (!_dataModel || ![_dataModel isKindOfClass:MKSBLoRaSettingAccountCellModel.class]) {
+    if (!_dataModel || ![_dataModel isKindOfClass:MKBVLoRaSettingAccountCellModel.class]) {
         return;
     }
     self.msgLabel.text = [@"Account:" stringByAppendingString:SafeStr(_dataModel.account)];

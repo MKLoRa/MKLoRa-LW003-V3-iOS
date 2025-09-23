@@ -83,6 +83,8 @@
 #import "MKBVLoRaPageModel.h"
 #import "MKBVLoRaSettingController.h"
 #import "MKBVLoRaSettingModel.h"
+#import "MKBVDevEUICell.h"
+#import "MKBVLoRaSettingAccountCell.h"
 #import "MKBVMessageTypeController.h"
 #import "MKBVMessageTypeModel.h"
 #import "MKBVMulticaseGroupController.h"

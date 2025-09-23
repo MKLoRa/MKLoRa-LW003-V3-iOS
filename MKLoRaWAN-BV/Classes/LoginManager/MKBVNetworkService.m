@@ -42,9 +42,9 @@
         };
     }
     NSString *devEui = [NSString stringWithFormat:@"%@%@%@",[self.macAddress substringToIndex:6],@"ffff",[self.macAddress substringFromIndex:6]];
-    NSString *model = @"45";
-    NSString *applicationIdFull = @"LW006";
-    NSString *profilesType = @"006";
+    NSString *model = @"25";
+    NSString *applicationIdFull = @"LW003B-PRO";
+    NSString *profilesType = @"003B-PRO";
     NSString *devName = [NSString stringWithFormat:@"%@_%@",applicationIdFull,[[devEui substringFromIndex:(devEui.length - 4)] uppercaseString]];
     NSString *gwId = SafeStr([self.gwId lowercaseString]);
     NSString *gwName = @"";

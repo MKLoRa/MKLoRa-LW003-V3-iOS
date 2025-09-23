@@ -639,12 +639,17 @@
               "name": "Controller",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/LoRaSettingPage/Controller/**",
               "dependencies": {
-                "MKLoRaWAN-BV/Functions/LoRaSettingPage/Model": []
+                "MKLoRaWAN-BV/Functions/LoRaSettingPage/Model": [],
+                "MKLoRaWAN-BV/Functions/LoRaSettingPage/View": []
               }
             },
             {
               "name": "Model",
               "source_files": "MKLoRaWAN-BV/Classes/Functions/LoRaSettingPage/Model/**"
+            },
+            {
+              "name": "View",
+              "source_files": "MKLoRaWAN-BV/Classes/Functions/LoRaSettingPage/View/**"
             }
           ]
         },

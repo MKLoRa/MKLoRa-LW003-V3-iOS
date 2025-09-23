@@ -1,12 +1,12 @@
 //
-//  MKSBDevEUICell.m
-//  MKLoRaWAN-SB_Example
+//  MKBVDevEUICell.m
+//  MKLoRaWAN-BV_Example
 //
 //  Created by aa on 2025/3/5.
 //  Copyright © 2025 aadyx2007@163.com. All rights reserved.
 //
 
-#import "MKSBDevEUICell.h"
+#import "MKBVDevEUICell.h"
 
 #import "Masonry.h"
 
@@ -14,21 +14,21 @@
 #import "NSString+MKAdd.h"
 #import "UIView+MKAdd.h"
 
-@implementation MKSBDevEUICellModel
+@implementation MKBVDevEUICellModel
 @end
 
-@interface MKSBDevEUICell ()
+@interface MKBVDevEUICell ()
 
 @property (nonatomic, strong)UILabel *msgLabel;
 
 @end
 
-@implementation MKSBDevEUICell
+@implementation MKBVDevEUICell
 
-+ (MKSBDevEUICell *)initCellWithTableView:(UITableView *)tableView {
-    MKSBDevEUICell *cell = [tableView dequeueReusableCellWithIdentifier:@"MKSBDevEUICellIdenty"];
++ (MKBVDevEUICell *)initCellWithTableView:(UITableView *)tableView {
+    MKBVDevEUICell *cell = [tableView dequeueReusableCellWithIdentifier:@"MKBVDevEUICellIdenty"];
     if (!cell) {
-        cell = [[MKSBDevEUICell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"MKSBDevEUICellIdenty"];
+        cell = [[MKBVDevEUICell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"MKBVDevEUICellIdenty"];
     }
     return cell;
 }
@@ -51,10 +51,10 @@
 }
 
 #pragma mark - setter
-- (void)setDataModel:(MKSBDevEUICellModel *)dataModel {
+- (void)setDataModel:(MKBVDevEUICellModel *)dataModel {
     _dataModel = nil;
     _dataModel = dataModel;
-    if (!_dataModel || ![_dataModel isKindOfClass:MKSBDevEUICellModel.class]) {
+    if (!_dataModel || ![_dataModel isKindOfClass:MKBVDevEUICellModel.class]) {
         return;
     }
     self.msgLabel.text = [@"DevEUI:" stringByAppendingString:SafeStr(_dataModel.devEUI)];

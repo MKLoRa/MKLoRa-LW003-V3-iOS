@@ -1735,6 +1735,7 @@ PODS:
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/LoRaSettingPage/Controller (= 0.0.2)
     - MKLoRaWAN-BV/Functions/LoRaSettingPage/Model (= 0.0.2)
+    - MKLoRaWAN-BV/Functions/LoRaSettingPage/View (= 0.0.2)
     - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
@@ -1748,10 +1749,23 @@ PODS:
     - MKLoRaWAN-BV/DatabaseManager
     - MKLoRaWAN-BV/Expand
     - MKLoRaWAN-BV/Functions/LoRaSettingPage/Model
+    - MKLoRaWAN-BV/Functions/LoRaSettingPage/View
     - MKLoRaWAN-BV/LoginManager
     - MKLoRaWAN-BV/SDK
     - MLInputDodger
   - MKLoRaWAN-BV/Functions/LoRaSettingPage/Model (0.0.2):
+    - HHTransition
+    - iOSDFULibrary (= 4.13.0)
+    - MKBaseModuleLibrary
+    - MKCustomUIModule
+    - MKLoRaWAN-BV/ConnectModule
+    - MKLoRaWAN-BV/CTMediator
+    - MKLoRaWAN-BV/DatabaseManager
+    - MKLoRaWAN-BV/Expand
+    - MKLoRaWAN-BV/LoginManager
+    - MKLoRaWAN-BV/SDK
+    - MLInputDodger
+  - MKLoRaWAN-BV/Functions/LoRaSettingPage/View (0.0.2):
     - HHTransition
     - iOSDFULibrary (= 4.13.0)
     - MKBaseModuleLibrary
@@ -2731,7 +2745,7 @@ SPEC CHECKSUMS:
   MKBaseModuleLibrary: 2b79bcae588c755588413fbb643b510253271b23
   MKCustomUIModule: 8426eba1d3178b06d92741d31da32502920fb8fa
   MKIotCloudManager: 241bd4bb7fae48e6b031c69a40c26637aabe67be
-  MKLoRaWAN-BV: 8dd97bca5cf4a19249462ac77f71888e0f65b4e9
+  MKLoRaWAN-BV: 9ce00bcafb9837ed7e1361c69924d77540c82fe1
   MLInputDodger: 79a0e420a80d0d3bba122bf2639603cc76609ba8
   SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
   Toast: 1f5ea13423a1e6674c4abdac5be53587ae481c4e

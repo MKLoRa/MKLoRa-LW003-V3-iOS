@@ -1,6 +1,6 @@
 //
-//  MKSBLoRaSettingAccountCell.h
-//  MKLoRaWAN-SB_Example
+//  MKBVLoRaSettingAccountCell.h
+//  MKLoRaWAN-BV_Example
 //
 //  Created by aa on 2025/3/3.
 //  Copyright © 2025 aadyx2007@163.com. All rights reserved.
@@ -10,25 +10,25 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MKSBLoRaSettingAccountCellModel : NSObject
+@interface MKBVLoRaSettingAccountCellModel : NSObject
 
 @property (nonatomic, copy)NSString *account;
 
 @end
 
-@protocol MKSBLoRaSettingAccountCellDelegate <NSObject>
+@protocol MKBVLoRaSettingAccountCellDelegate <NSObject>
 
-- (void)sb_loRaSettingAccountCell_logoutBtnPressed;
+- (void)bv_loRaSettingAccountCell_logoutBtnPressed;
 
 @end
 
-@interface MKSBLoRaSettingAccountCell : MKBaseCell
+@interface MKBVLoRaSettingAccountCell : MKBaseCell
 
-@property (nonatomic, strong)MKSBLoRaSettingAccountCellModel *dataModel;
+@property (nonatomic, strong)MKBVLoRaSettingAccountCellModel *dataModel;
 
-@property (nonatomic, weak)id <MKSBLoRaSettingAccountCellDelegate>delegate;
+@property (nonatomic, weak)id <MKBVLoRaSettingAccountCellDelegate>delegate;
 
-+ (MKSBLoRaSettingAccountCell *)initCellWithTableView:(UITableView *)tableView;
++ (MKBVLoRaSettingAccountCell *)initCellWithTableView:(UITableView *)tableView;
 
 @end
 
